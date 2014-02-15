@@ -211,7 +211,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="wYM-N9-iKT" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="XBk-O3-qCh"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Fkl-RF-Cdn">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
@@ -270,7 +270,7 @@
             <objects>
                 <tabBarController definesPresentationContext="YES" id="bGv-5A-26I" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="gXM-p3-ev2"/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="bcc-Xl-bO5">
                         <rect key="frame" x="129" y="330" width="163" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
