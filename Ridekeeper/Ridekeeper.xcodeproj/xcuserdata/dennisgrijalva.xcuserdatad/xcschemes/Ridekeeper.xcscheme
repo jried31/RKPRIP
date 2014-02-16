@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6129F43318AC630E006E20E7"
-               BuildableName = "Ridekeeper.app"
-               BlueprintName = "Ridekeeper"
-               ReferencedContainer = "container:Ridekeeper.xcodeproj">
+               BlueprintIdentifier = "611D9E0518B0979500A0DD09"
+               BuildableName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+               BlueprintName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:RideKeeper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6129F45718AC630E006E20E7"
-               BuildableName = "RidekeeperTests.xctest"
-               BlueprintName = "RidekeeperTests"
-               ReferencedContainer = "container:Ridekeeper.xcodeproj">
+               BlueprintIdentifier = "611D9E2918B0979500A0DD09"
+               BuildableName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:RideKeeper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6129F43318AC630E006E20E7"
-            BuildableName = "Ridekeeper.app"
-            BlueprintName = "Ridekeeper"
-            ReferencedContainer = "container:Ridekeeper.xcodeproj">
+            BlueprintIdentifier = "611D9E0518B0979500A0DD09"
+            BuildableName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:RideKeeper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6129F43318AC630E006E20E7"
-            BuildableName = "Ridekeeper.app"
-            BlueprintName = "Ridekeeper"
-            ReferencedContainer = "container:Ridekeeper.xcodeproj">
+            BlueprintIdentifier = "611D9E0518B0979500A0DD09"
+            BuildableName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:RideKeeper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6129F43318AC630E006E20E7"
-            BuildableName = "Ridekeeper.app"
-            BlueprintName = "Ridekeeper"
-            ReferencedContainer = "container:Ridekeeper.xcodeproj">
+            BlueprintIdentifier = "611D9E0518B0979500A0DD09"
+            BuildableName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app"
+            BlueprintName = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:RideKeeper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

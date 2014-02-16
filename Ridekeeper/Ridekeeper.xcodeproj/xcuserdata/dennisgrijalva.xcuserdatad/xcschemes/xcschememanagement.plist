@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Ridekeeper.xcscheme</key>
+		<key>RideKeeper.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6129F43318AC630E006E20E7</key>
+		<key>611D9E0518B0979500A0DD09</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6129F45718AC630E006E20E7</key>
+		<key>611D9E2918B0979500A0DD09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

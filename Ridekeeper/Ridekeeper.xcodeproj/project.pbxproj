@@ -7,152 +7,197 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6129F43818AC630E006E20E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129F43718AC630E006E20E7 /* Foundation.framework */; };
-		6129F43A18AC630E006E20E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129F43918AC630E006E20E7 /* CoreGraphics.framework */; };
-		6129F43C18AC630E006E20E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129F43B18AC630E006E20E7 /* UIKit.framework */; };
-		6129F44218AC630E006E20E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6129F44018AC630E006E20E7 /* InfoPlist.strings */; };
-		6129F44418AC630E006E20E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6129F44318AC630E006E20E7 /* main.m */; };
-		6129F44818AC630E006E20E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6129F44718AC630E006E20E7 /* AppDelegate.m */; };
-		6129F44B18AC630E006E20E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6129F44918AC630E006E20E7 /* Main.storyboard */; };
-		6129F44E18AC630E006E20E7 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6129F44D18AC630E006E20E7 /* FirstViewController.m */; };
-		6129F45118AC630E006E20E7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6129F45018AC630E006E20E7 /* SecondViewController.m */; };
-		6129F45318AC630E006E20E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6129F45218AC630E006E20E7 /* Images.xcassets */; };
-		6129F45A18AC630E006E20E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129F45918AC630E006E20E7 /* XCTest.framework */; };
-		6129F45B18AC630E006E20E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129F43718AC630E006E20E7 /* Foundation.framework */; };
-		6129F45C18AC630E006E20E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6129F43B18AC630E006E20E7 /* UIKit.framework */; };
-		6129F46418AC630E006E20E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6129F46218AC630E006E20E7 /* InfoPlist.strings */; };
-		6129F46618AC630E006E20E7 /* RidekeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6129F46518AC630E006E20E7 /* RidekeeperTests.m */; };
+		611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0918B0979500A0DD09 /* Foundation.framework */; };
+		611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0B18B0979500A0DD09 /* CoreGraphics.framework */; };
+		611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0D18B0979500A0DD09 /* UIKit.framework */; };
+		611D9E1418B0979500A0DD09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E1218B0979500A0DD09 /* InfoPlist.strings */; };
+		611D9E1618B0979500A0DD09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E1518B0979500A0DD09 /* main.m */; };
+		611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E1918B0979500A0DD09 /* AppDelegate.m */; };
+		611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E1F18B0979500A0DD09 /* FirstViewController.m */; };
+		611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E2218B0979500A0DD09 /* SecondViewController.m */; };
+		611D9E2518B0979500A0DD09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E2418B0979500A0DD09 /* Images.xcassets */; };
+		611D9E2C18B0979500A0DD09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E2B18B0979500A0DD09 /* XCTest.framework */; };
+		611D9E2D18B0979500A0DD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0918B0979500A0DD09 /* Foundation.framework */; };
+		611D9E2E18B0979500A0DD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0D18B0979500A0DD09 /* UIKit.framework */; };
+		611D9E3618B0979500A0DD09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E3418B0979500A0DD09 /* InfoPlist.strings */; };
+		611D9E3818B0979500A0DD09 /* RideKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E3718B0979500A0DD09 /* RideKeeperTests.m */; };
+		611D9E4218B097A300A0DD09 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		611D9E4C18B0985B00A0DD09 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4318B0985B00A0DD09 /* AudioToolbox.framework */; };
+		611D9E4D18B0985B00A0DD09 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4418B0985B00A0DD09 /* CFNetwork.framework */; };
+		611D9E4E18B0985B00A0DD09 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4518B0985B00A0DD09 /* libsqlite3.dylib */; };
+		611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4618B0985B00A0DD09 /* libz.1.1.3.dylib */; };
+		611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4718B0985B00A0DD09 /* MobileCoreServices.framework */; };
+		611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4818B0985B00A0DD09 /* QuartzCore.framework */; };
+		611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4918B0985B00A0DD09 /* Security.framework */; };
+		611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4A18B0985B00A0DD09 /* StoreKit.framework */; };
+		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
+		611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E5518B09A0600A0DD09 /* Main.storyboard */; };
+		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6129F45D18AC630E006E20E7 /* PBXContainerItemProxy */ = {
+		611D9E2F18B0979500A0DD09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6129F42C18AC630E006E20E7 /* Project object */;
+			containerPortal = 611D9DFE18B0979500A0DD09 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6129F43318AC630E006E20E7;
-			remoteInfo = Ridekeeper;
+			remoteGlobalIDString = 611D9E0518B0979500A0DD09;
+			remoteInfo = RideKeeper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6129F43418AC630E006E20E7 /* Ridekeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ridekeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6129F43718AC630E006E20E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6129F43918AC630E006E20E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6129F43B18AC630E006E20E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6129F43F18AC630E006E20E7 /* Ridekeeper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ridekeeper-Info.plist"; sourceTree = "<group>"; };
-		6129F44118AC630E006E20E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6129F44318AC630E006E20E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6129F44518AC630E006E20E7 /* Ridekeeper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ridekeeper-Prefix.pch"; sourceTree = "<group>"; };
-		6129F44618AC630E006E20E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6129F44718AC630E006E20E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6129F44A18AC630E006E20E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6129F44C18AC630E006E20E7 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		6129F44D18AC630E006E20E7 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		6129F44F18AC630E006E20E7 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		6129F45018AC630E006E20E7 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		6129F45218AC630E006E20E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6129F45818AC630E006E20E7 /* RidekeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RidekeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6129F45918AC630E006E20E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6129F46118AC630E006E20E7 /* RidekeeperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RidekeeperTests-Info.plist"; sourceTree = "<group>"; };
-		6129F46318AC630E006E20E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6129F46518AC630E006E20E7 /* RidekeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RidekeeperTests.m; sourceTree = "<group>"; };
+		611D9E0618B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611D9E0918B0979500A0DD09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		611D9E0B18B0979500A0DD09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		611D9E0D18B0979500A0DD09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		611D9E1118B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
+		611D9E1318B0979500A0DD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		611D9E1518B0979500A0DD09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		611D9E1718B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
+		611D9E1818B0979500A0DD09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		611D9E1918B0979500A0DD09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		611D9E1E18B0979500A0DD09 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		611D9E1F18B0979500A0DD09 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		611D9E2118B0979500A0DD09 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		611D9E2218B0979500A0DD09 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		611D9E2418B0979500A0DD09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		611D9E2A18B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		611D9E2B18B0979500A0DD09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		611D9E3318B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
+		611D9E3518B0979500A0DD09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		611D9E3718B0979500A0DD09 /* RideKeeperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RideKeeperTests.m; sourceTree = "<group>"; };
+		611D9E4118B097A300A0DD09 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		611D9E4318B0985B00A0DD09 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		611D9E4418B0985B00A0DD09 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		611D9E4518B0985B00A0DD09 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		611D9E4618B0985B00A0DD09 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		611D9E4718B0985B00A0DD09 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		611D9E4818B0985B00A0DD09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		611D9E4918B0985B00A0DD09 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		611D9E4A18B0985B00A0DD09 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		611D9E5518B09A0600A0DD09 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		611D9E5D18B0A50600A0DD09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6129F43118AC630E006E20E7 /* Frameworks */ = {
+		611D9E0318B0979500A0DD09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6129F43A18AC630E006E20E7 /* CoreGraphics.framework in Frameworks */,
-				6129F43C18AC630E006E20E7 /* UIKit.framework in Frameworks */,
-				6129F43818AC630E006E20E7 /* Foundation.framework in Frameworks */,
+				611D9E4C18B0985B00A0DD09 /* AudioToolbox.framework in Frameworks */,
+				611D9E4D18B0985B00A0DD09 /* CFNetwork.framework in Frameworks */,
+				611D9E4E18B0985B00A0DD09 /* libsqlite3.dylib in Frameworks */,
+				611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */,
+				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
+				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
+				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
+				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
+				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
+				611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */,
+				611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */,
+				611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */,
+				611D9E4218B097A300A0DD09 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6129F45518AC630E006E20E7 /* Frameworks */ = {
+		611D9E2718B0979500A0DD09 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6129F45A18AC630E006E20E7 /* XCTest.framework in Frameworks */,
-				6129F45C18AC630E006E20E7 /* UIKit.framework in Frameworks */,
-				6129F45B18AC630E006E20E7 /* Foundation.framework in Frameworks */,
+				611D9E2C18B0979500A0DD09 /* XCTest.framework in Frameworks */,
+				611D9E2E18B0979500A0DD09 /* UIKit.framework in Frameworks */,
+				611D9E2D18B0979500A0DD09 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6129F42B18AC630E006E20E7 = {
+		611D9DFD18B0979500A0DD09 = {
 			isa = PBXGroup;
 			children = (
-				6129F43D18AC630E006E20E7 /* Ridekeeper */,
-				6129F45F18AC630E006E20E7 /* RidekeeperTests */,
-				6129F43618AC630E006E20E7 /* Frameworks */,
-				6129F43518AC630E006E20E7 /* Products */,
+				611D9E0F18B0979500A0DD09 /* RideKeeper */,
+				611D9E3118B0979500A0DD09 /* RideKeeperTests */,
+				611D9E0818B0979500A0DD09 /* Frameworks */,
+				611D9E0718B0979500A0DD09 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6129F43518AC630E006E20E7 /* Products */ = {
+		611D9E0718B0979500A0DD09 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6129F43418AC630E006E20E7 /* Ridekeeper.app */,
-				6129F45818AC630E006E20E7 /* RidekeeperTests.xctest */,
+				611D9E0618B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */,
+				611D9E2A18B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6129F43618AC630E006E20E7 /* Frameworks */ = {
+		611D9E0818B0979500A0DD09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6129F43718AC630E006E20E7 /* Foundation.framework */,
-				6129F43918AC630E006E20E7 /* CoreGraphics.framework */,
-				6129F43B18AC630E006E20E7 /* UIKit.framework */,
-				6129F45918AC630E006E20E7 /* XCTest.framework */,
+				611D9E4318B0985B00A0DD09 /* AudioToolbox.framework */,
+				611D9E4418B0985B00A0DD09 /* CFNetwork.framework */,
+				611D9E4518B0985B00A0DD09 /* libsqlite3.dylib */,
+				611D9E4618B0985B00A0DD09 /* libz.1.1.3.dylib */,
+				611D9E4718B0985B00A0DD09 /* MobileCoreServices.framework */,
+				611D9E4818B0985B00A0DD09 /* QuartzCore.framework */,
+				611D9E4918B0985B00A0DD09 /* Security.framework */,
+				611D9E4A18B0985B00A0DD09 /* StoreKit.framework */,
+				611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */,
+				611D9E4118B097A300A0DD09 /* Parse.framework */,
+				611D9E0918B0979500A0DD09 /* Foundation.framework */,
+				611D9E0B18B0979500A0DD09 /* CoreGraphics.framework */,
+				611D9E0D18B0979500A0DD09 /* UIKit.framework */,
+				611D9E2B18B0979500A0DD09 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6129F43D18AC630E006E20E7 /* Ridekeeper */ = {
+		611D9E0F18B0979500A0DD09 /* RideKeeper */ = {
 			isa = PBXGroup;
 			children = (
-				6129F44618AC630E006E20E7 /* AppDelegate.h */,
-				6129F44718AC630E006E20E7 /* AppDelegate.m */,
-				6129F44918AC630E006E20E7 /* Main.storyboard */,
-				6129F44C18AC630E006E20E7 /* FirstViewController.h */,
-				6129F44D18AC630E006E20E7 /* FirstViewController.m */,
-				6129F44F18AC630E006E20E7 /* SecondViewController.h */,
-				6129F45018AC630E006E20E7 /* SecondViewController.m */,
-				6129F45218AC630E006E20E7 /* Images.xcassets */,
-				6129F43E18AC630E006E20E7 /* Supporting Files */,
+				611D9E1818B0979500A0DD09 /* AppDelegate.h */,
+				611D9E1918B0979500A0DD09 /* AppDelegate.m */,
+				611D9E1E18B0979500A0DD09 /* FirstViewController.h */,
+				611D9E1F18B0979500A0DD09 /* FirstViewController.m */,
+				611D9E2118B0979500A0DD09 /* SecondViewController.h */,
+				611D9E2218B0979500A0DD09 /* SecondViewController.m */,
+				611D9E5518B09A0600A0DD09 /* Main.storyboard */,
+				611D9E5D18B0A50600A0DD09 /* LoginViewController.h */,
+				611D9E5E18B0A50600A0DD09 /* LoginViewController.m */,
+				611D9E2418B0979500A0DD09 /* Images.xcassets */,
+				611D9E1018B0979500A0DD09 /* Supporting Files */,
 			);
-			path = Ridekeeper;
+			path = RideKeeper;
 			sourceTree = "<group>";
 		};
-		6129F43E18AC630E006E20E7 /* Supporting Files */ = {
+		611D9E1018B0979500A0DD09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6129F43F18AC630E006E20E7 /* Ridekeeper-Info.plist */,
-				6129F44018AC630E006E20E7 /* InfoPlist.strings */,
-				6129F44318AC630E006E20E7 /* main.m */,
-				6129F44518AC630E006E20E7 /* Ridekeeper-Prefix.pch */,
+				611D9E1118B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */,
+				611D9E1218B0979500A0DD09 /* InfoPlist.strings */,
+				611D9E1518B0979500A0DD09 /* main.m */,
+				611D9E1718B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6129F45F18AC630E006E20E7 /* RidekeeperTests */ = {
+		611D9E3118B0979500A0DD09 /* RideKeeperTests */ = {
 			isa = PBXGroup;
 			children = (
-				6129F46518AC630E006E20E7 /* RidekeeperTests.m */,
-				6129F46018AC630E006E20E7 /* Supporting Files */,
+				611D9E3718B0979500A0DD09 /* RideKeeperTests.m */,
+				611D9E3218B0979500A0DD09 /* Supporting Files */,
 			);
-			path = RidekeeperTests;
+			path = RideKeeperTests;
 			sourceTree = "<group>";
 		};
-		6129F46018AC630E006E20E7 /* Supporting Files */ = {
+		611D9E3218B0979500A0DD09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6129F46118AC630E006E20E7 /* RidekeeperTests-Info.plist */,
-				6129F46218AC630E006E20E7 /* InfoPlist.strings */,
+				611D9E3318B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist */,
+				611D9E3418B0979500A0DD09 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,56 +205,56 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6129F43318AC630E006E20E7 /* Ridekeeper */ = {
+		611D9E0518B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6129F46918AC630E006E20E7 /* Build configuration list for PBXNativeTarget "Ridekeeper" */;
+			buildConfigurationList = 611D9E3B18B0979500A0DD09 /* Build configuration list for PBXNativeTarget "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */;
 			buildPhases = (
-				6129F43018AC630E006E20E7 /* Sources */,
-				6129F43118AC630E006E20E7 /* Frameworks */,
-				6129F43218AC630E006E20E7 /* Resources */,
+				611D9E0218B0979500A0DD09 /* Sources */,
+				611D9E0318B0979500A0DD09 /* Frameworks */,
+				611D9E0418B0979500A0DD09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Ridekeeper;
-			productName = Ridekeeper;
-			productReference = 6129F43418AC630E006E20E7 /* Ridekeeper.app */;
+			name = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+			productName = RideKeeper;
+			productReference = 611D9E0618B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6129F45718AC630E006E20E7 /* RidekeeperTests */ = {
+		611D9E2918B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6129F46C18AC630E006E20E7 /* Build configuration list for PBXNativeTarget "RidekeeperTests" */;
+			buildConfigurationList = 611D9E3E18B0979500A0DD09 /* Build configuration list for PBXNativeTarget "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
-				6129F45418AC630E006E20E7 /* Sources */,
-				6129F45518AC630E006E20E7 /* Frameworks */,
-				6129F45618AC630E006E20E7 /* Resources */,
+				611D9E2618B0979500A0DD09 /* Sources */,
+				611D9E2718B0979500A0DD09 /* Frameworks */,
+				611D9E2818B0979500A0DD09 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6129F45E18AC630E006E20E7 /* PBXTargetDependency */,
+				611D9E3018B0979500A0DD09 /* PBXTargetDependency */,
 			);
-			name = RidekeeperTests;
-			productName = RidekeeperTests;
-			productReference = 6129F45818AC630E006E20E7 /* RidekeeperTests.xctest */;
+			name = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
+			productName = RideKeeperTests;
+			productReference = 611D9E2A18B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6129F42C18AC630E006E20E7 /* Project object */ = {
+		611D9DFE18B0979500A0DD09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Dennis Grijalva";
 				TargetAttributes = {
-					6129F45718AC630E006E20E7 = {
-						TestTargetID = 6129F43318AC630E006E20E7;
+					611D9E2918B0979500A0DD09 = {
+						TestTargetID = 611D9E0518B0979500A0DD09;
 					};
 				};
 			};
-			buildConfigurationList = 6129F42F18AC630E006E20E7 /* Build configuration list for PBXProject "Ridekeeper" */;
+			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,89 +262,82 @@
 				en,
 				Base,
 			);
-			mainGroup = 6129F42B18AC630E006E20E7;
-			productRefGroup = 6129F43518AC630E006E20E7 /* Products */;
+			mainGroup = 611D9DFD18B0979500A0DD09;
+			productRefGroup = 611D9E0718B0979500A0DD09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6129F43318AC630E006E20E7 /* Ridekeeper */,
-				6129F45718AC630E006E20E7 /* RidekeeperTests */,
+				611D9E0518B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename */,
+				611D9E2918B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6129F43218AC630E006E20E7 /* Resources */ = {
+		611D9E0418B0979500A0DD09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6129F45318AC630E006E20E7 /* Images.xcassets in Resources */,
-				6129F44218AC630E006E20E7 /* InfoPlist.strings in Resources */,
-				6129F44B18AC630E006E20E7 /* Main.storyboard in Resources */,
+				611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */,
+				611D9E2518B0979500A0DD09 /* Images.xcassets in Resources */,
+				611D9E1418B0979500A0DD09 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6129F45618AC630E006E20E7 /* Resources */ = {
+		611D9E2818B0979500A0DD09 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6129F46418AC630E006E20E7 /* InfoPlist.strings in Resources */,
+				611D9E3618B0979500A0DD09 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6129F43018AC630E006E20E7 /* Sources */ = {
+		611D9E0218B0979500A0DD09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6129F45118AC630E006E20E7 /* SecondViewController.m in Sources */,
-				6129F44818AC630E006E20E7 /* AppDelegate.m in Sources */,
-				6129F44E18AC630E006E20E7 /* FirstViewController.m in Sources */,
-				6129F44418AC630E006E20E7 /* main.m in Sources */,
+				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
+				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
+				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
+				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
+				611D9E1618B0979500A0DD09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6129F45418AC630E006E20E7 /* Sources */ = {
+		611D9E2618B0979500A0DD09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6129F46618AC630E006E20E7 /* RidekeeperTests.m in Sources */,
+				611D9E3818B0979500A0DD09 /* RideKeeperTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6129F45E18AC630E006E20E7 /* PBXTargetDependency */ = {
+		611D9E3018B0979500A0DD09 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6129F43318AC630E006E20E7 /* Ridekeeper */;
-			targetProxy = 6129F45D18AC630E006E20E7 /* PBXContainerItemProxy */;
+			target = 611D9E0518B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename */;
+			targetProxy = 611D9E2F18B0979500A0DD09 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6129F44018AC630E006E20E7 /* InfoPlist.strings */ = {
+		611D9E1218B0979500A0DD09 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6129F44118AC630E006E20E7 /* en */,
+				611D9E1318B0979500A0DD09 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6129F44918AC630E006E20E7 /* Main.storyboard */ = {
+		611D9E3418B0979500A0DD09 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6129F44A18AC630E006E20E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6129F46218AC630E006E20E7 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6129F46318AC630E006E20E7 /* en */,
+				611D9E3518B0979500A0DD09 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -307,7 +345,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6129F46718AC630E006E20E7 /* Debug */ = {
+		611D9E3918B0979500A0DD09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -346,7 +384,7 @@
 			};
 			name = Debug;
 		};
-		6129F46818AC630E006E20E7 /* Release */ = {
+		611D9E3A18B0979500A0DD09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,69 +417,77 @@
 			};
 			name = Release;
 		};
-		6129F46A18AC630E006E20E7 /* Debug */ = {
+		611D9E3C18B0979500A0DD09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ridekeeper/Ridekeeper-Prefix.pch";
-				INFOPLIST_FILE = "Ridekeeper/Ridekeeper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		6129F46B18AC630E006E20E7 /* Release */ = {
+		611D9E3D18B0979500A0DD09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ridekeeper/Ridekeeper-Prefix.pch";
-				INFOPLIST_FILE = "Ridekeeper/Ridekeeper-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		6129F46D18AC630E006E20E7 /* Debug */ = {
+		611D9E3F18B0979500A0DD09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ridekeeper.app/Ridekeeper";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RideKeeper.app/RideKeeper";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ridekeeper/Ridekeeper-Prefix.pch";
+				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "RidekeeperTests/RidekeeperTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "RideKeeperTests/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		6129F46E18AC630E006E20E7 /* Release */ = {
+		611D9E4018B0979500A0DD09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ridekeeper.app/Ridekeeper";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RideKeeper.app/RideKeeper";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Ridekeeper/Ridekeeper-Prefix.pch";
-				INFOPLIST_FILE = "RidekeeperTests/RidekeeperTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper-Prefix.pch";
+				INFOPLIST_FILE = "RideKeeperTests/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -450,32 +496,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6129F42F18AC630E006E20E7 /* Build configuration list for PBXProject "Ridekeeper" */ = {
+		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6129F46718AC630E006E20E7 /* Debug */,
-				6129F46818AC630E006E20E7 /* Release */,
+				611D9E3918B0979500A0DD09 /* Debug */,
+				611D9E3A18B0979500A0DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6129F46918AC630E006E20E7 /* Build configuration list for PBXNativeTarget "Ridekeeper" */ = {
+		611D9E3B18B0979500A0DD09 /* Build configuration list for PBXNativeTarget "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6129F46A18AC630E006E20E7 /* Debug */,
-				6129F46B18AC630E006E20E7 /* Release */,
+				611D9E3C18B0979500A0DD09 /* Debug */,
+				611D9E3D18B0979500A0DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6129F46C18AC630E006E20E7 /* Build configuration list for PBXNativeTarget "RidekeeperTests" */ = {
+		611D9E3E18B0979500A0DD09 /* Build configuration list for PBXNativeTarget "RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6129F46D18AC630E006E20E7 /* Debug */,
-				6129F46E18AC630E006E20E7 /* Release */,
+				611D9E3F18B0979500A0DD09 /* Debug */,
+				611D9E4018B0979500A0DD09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6129F42C18AC630E006E20E7 /* Project object */;
+	rootObject = 611D9DFE18B0979500A0DD09 /* Project object */;
 }

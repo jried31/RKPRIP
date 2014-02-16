@@ -1,8 +1,8 @@
 //
 //  SecondViewController.h
-//  Ridekeeper
+//  RideKeeper
 //
-//  Created by Dennis Grijalva on 2/12/14.
+//  Created by Dennis Grijalva on 2/15/14.
 //  Copyright (c) 2014 Dennis Grijalva. All rights reserved.
 //
 
