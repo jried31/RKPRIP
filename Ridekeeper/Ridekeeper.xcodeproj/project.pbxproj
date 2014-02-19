@@ -21,7 +21,6 @@
 		611D9E2E18B0979500A0DD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0D18B0979500A0DD09 /* UIKit.framework */; };
 		611D9E3618B0979500A0DD09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E3418B0979500A0DD09 /* InfoPlist.strings */; };
 		611D9E3818B0979500A0DD09 /* RideKeeperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E3718B0979500A0DD09 /* RideKeeperTests.m */; };
-		611D9E4218B097A300A0DD09 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 		611D9E4C18B0985B00A0DD09 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4318B0985B00A0DD09 /* AudioToolbox.framework */; };
 		611D9E4D18B0985B00A0DD09 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4418B0985B00A0DD09 /* CFNetwork.framework */; };
 		611D9E4E18B0985B00A0DD09 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4518B0985B00A0DD09 /* libsqlite3.dylib */; };
@@ -33,6 +32,7 @@
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
 		611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E5518B09A0600A0DD09 /* Main.storyboard */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
+		FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,13 +92,13 @@
 				611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */,
 				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
 				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
+				FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */,
 				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
 				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
 				611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */,
 				611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */,
 				611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */,
-				611D9E4218B097A300A0DD09 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +254,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */;
+			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "Ridekeeper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -425,6 +425,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
+					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -442,6 +443,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
+					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -496,7 +498,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */ = {
+		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "Ridekeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				611D9E3918B0979500A0DD09 /* Debug */,
