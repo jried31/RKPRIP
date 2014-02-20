@@ -116,6 +116,7 @@
         }
     }];
 }
+
 - (IBAction)register:(id)sender {
     //when the button is pressed make the keyboard disappear first
     [_usernamesignup resignFirstResponder];
@@ -123,5 +124,7 @@
     [_passwordsignup resignFirstResponder];
     [_retypepasswordsignup resignFirstResponder];
     [self checkfieldvalid];
+
 }
+
 @end

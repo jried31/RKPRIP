@@ -14,7 +14,7 @@
 		<string>https://github.com/jried31/RKPRIP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RideKeeper/RideKeeper.xcodeproj/project.xcworkspace</string>
+	<string>Ridekeeper/Ridekeeper.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>5A834FE5-6208-4DC0-94DB-099FA0DBCDE0</key>
@@ -28,6 +28,14 @@
 	<string>5A834FE5-6208-4DC0-94DB-099FA0DBCDE0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5A834FE5-6208-4DC0-94DB-099FA0DBCDE0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RKPRIP</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
