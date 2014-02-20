@@ -26,7 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+    
+    // Do any additional setup after loading the view.
+    [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]]];
+    //[self.logInView.signUpButton setTitle:@"" forState:UIControlStateNormal];
+	
 }
 
 - (void)didReceiveMemoryWarning
@@ -114,6 +118,7 @@
 // Sent to the delegate when a PFUser is signed up.
 - (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user {
     [self dismissModalViewControllerAnimated:YES]; // Dismiss the PFSignUpViewController
+    //At this point we must create QuickBlox account for the user and save in Parse
 }
 
 // Sent to the delegate when the sign up attempt fails.

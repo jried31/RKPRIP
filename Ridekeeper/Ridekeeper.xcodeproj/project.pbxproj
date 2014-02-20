@@ -30,8 +30,11 @@
 		611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4918B0985B00A0DD09 /* Security.framework */; };
 		611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4A18B0985B00A0DD09 /* StoreKit.framework */; };
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
-		611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E5518B09A0600A0DD09 /* Main.storyboard */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
+		619D262C18B5A8F900CEBBA0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D262B18B5A8F900CEBBA0 /* logo.png */; };
+		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
+		619D263418B5DCF000CEBBA0 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D263318B5DCF000CEBBA0 /* Main.png */; };
+		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,9 +79,13 @@
 		611D9E4918B0985B00A0DD09 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		611D9E4A18B0985B00A0DD09 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		611D9E5518B09A0600A0DD09 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		611D9E5D18B0A50600A0DD09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		619D262B18B5A8F900CEBBA0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		619D263118B5DCC600CEBBA0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		619D263318B5DCF000CEBBA0 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
+		619D263518B5EF0800CEBBA0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		619D263618B5EF0800CEBBA0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,13 +167,15 @@
 			children = (
 				611D9E1818B0979500A0DD09 /* AppDelegate.h */,
 				611D9E1918B0979500A0DD09 /* AppDelegate.m */,
+				619D263518B5EF0800CEBBA0 /* MainViewController.h */,
+				619D263618B5EF0800CEBBA0 /* MainViewController.m */,
 				611D9E1E18B0979500A0DD09 /* FirstViewController.h */,
 				611D9E1F18B0979500A0DD09 /* FirstViewController.m */,
 				611D9E2118B0979500A0DD09 /* SecondViewController.h */,
 				611D9E2218B0979500A0DD09 /* SecondViewController.m */,
-				611D9E5518B09A0600A0DD09 /* Main.storyboard */,
 				611D9E5D18B0A50600A0DD09 /* LoginViewController.h */,
 				611D9E5E18B0A50600A0DD09 /* LoginViewController.m */,
+				619D263118B5DCC600CEBBA0 /* Main.storyboard */,
 				611D9E2418B0979500A0DD09 /* Images.xcassets */,
 				611D9E1018B0979500A0DD09 /* Supporting Files */,
 			);
@@ -176,6 +185,8 @@
 		611D9E1018B0979500A0DD09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				619D263318B5DCF000CEBBA0 /* Main.png */,
+				619D262B18B5A8F900CEBBA0 /* logo.png */,
 				611D9E1118B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */,
 				611D9E1218B0979500A0DD09 /* InfoPlist.strings */,
 				611D9E1518B0979500A0DD09 /* main.m */,
@@ -249,12 +260,15 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Dennis Grijalva";
 				TargetAttributes = {
+					611D9E0518B0979500A0DD09 = {
+						DevelopmentTeam = Q32M7WDQHY;
+					};
 					611D9E2918B0979500A0DD09 = {
 						TestTargetID = 611D9E0518B0979500A0DD09;
 					};
 				};
 			};
-			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "Ridekeeper" */;
+			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -278,9 +292,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */,
+				619D262C18B5A8F900CEBBA0 /* logo.png in Resources */,
 				611D9E2518B0979500A0DD09 /* Images.xcassets in Resources */,
+				619D263418B5DCF000CEBBA0 /* Main.png in Resources */,
 				611D9E1418B0979500A0DD09 /* InfoPlist.strings in Resources */,
+				619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
+				619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
@@ -422,6 +439,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
@@ -431,6 +450,7 @@
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
 				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -440,6 +460,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
@@ -449,6 +471,7 @@
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
 				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -498,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "Ridekeeper" */ = {
+		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				611D9E3918B0979500A0DD09 /* Debug */,
