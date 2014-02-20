@@ -32,7 +32,8 @@
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
 		611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E5518B09A0600A0DD09 /* Main.storyboard */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
-		FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		DD1C950018B5E2080098B2FC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		DD1C950318B5F60F0098B2FC /* CustomLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,8 @@
 		611D9E5518B09A0600A0DD09 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		611D9E5D18B0A50600A0DD09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DD1C950118B5F60F0098B2FC /* CustomLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLogInViewController.h; path = Ridekeeper/CustomLogInViewController.h; sourceTree = SOURCE_ROOT; };
+		DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLogInViewController.m; path = Ridekeeper/CustomLogInViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +95,7 @@
 				611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */,
 				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
 				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
-				FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */,
+				DD1C950018B5E2080098B2FC /* Parse.framework in Frameworks */,
 				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
 				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
@@ -165,6 +168,8 @@
 				611D9E2118B0979500A0DD09 /* SecondViewController.h */,
 				611D9E2218B0979500A0DD09 /* SecondViewController.m */,
 				611D9E5518B09A0600A0DD09 /* Main.storyboard */,
+				DD1C950118B5F60F0098B2FC /* CustomLogInViewController.h */,
+				DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */,
 				611D9E5D18B0A50600A0DD09 /* LoginViewController.h */,
 				611D9E5E18B0A50600A0DD09 /* LoginViewController.m */,
 				611D9E2418B0979500A0DD09 /* Images.xcassets */,
@@ -300,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
+				DD1C950318B5F60F0098B2FC /* CustomLogInViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
@@ -426,6 +432,7 @@
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
+					/Users/mmohpasimayazrahman/Desktop/CSM117/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -444,6 +451,7 @@
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
+					/Users/mmohpasimayazrahman/Desktop/CSM117/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";

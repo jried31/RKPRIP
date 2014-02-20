@@ -53,6 +53,28 @@
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
     }
+    else
+    {
+        UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"Logged in"
+                                                            message:@""
+                                                           delegate:self
+                                                  cancelButtonTitle:@"continue"
+                                                  otherButtonTitles:@"Log out", nil];
+        [alertview show];
+        //[alertview release];
+    }
+
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == [alertView cancelButtonIndex]) {
+        [self performSegueWithIdentifier:@"next" sender:self];
+    }
+    else if (buttonIndex ==[alertView firstOtherButtonIndex])
+    {
+        [PFUser logOut];
+    }
 }
 
 // Sent to the delegate to determine whether the log in request should be submitted to the server.
@@ -72,8 +94,9 @@
 
 // Sent to the delegate when a PFUser is logged in.
 - (void)logInViewController:(PFLogInViewController *)logInController didLogInUser:(PFUser *)user {
-    [self dismissViewControllerAnimated:YES completion:NULL];
-    
+    NSLog(@"function called");
+     [self performSegueWithIdentifier:@"next" sender:self];
+    //[self dismissViewControllerAnimated:YES completion:NULL];
 }
 
 // Sent to the delegate when the log in attempt fails.
