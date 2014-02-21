@@ -41,7 +41,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
+    //[PFUser logOut];
     if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller
         PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
@@ -57,6 +57,9 @@
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
     }
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UIViewController *vc = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"MainViewController"];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 // Sent to the delegate to determine whether the log in request should be submitted to the server.
