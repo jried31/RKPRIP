@@ -33,6 +33,7 @@
 		611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E5518B09A0600A0DD09 /* Main.storyboard */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
 		DD1C950318B5F60F0098B2FC /* CustomLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */; };
+		DDD4294618B842D20097CF59 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD4294518B842D20097CF59 /* SignUpViewController.m */; };
 		FF02BD9F18B80CA60019D355 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
@@ -82,6 +83,8 @@
 		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		DD1C950118B5F60F0098B2FC /* CustomLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLogInViewController.h; path = Ridekeeper/CustomLogInViewController.h; sourceTree = SOURCE_ROOT; };
 		DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLogInViewController.m; path = Ridekeeper/CustomLogInViewController.m; sourceTree = SOURCE_ROOT; };
+		DDD4294418B842D20097CF59 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ../SignUpViewController.h; sourceTree = "<group>"; };
+		DDD4294518B842D20097CF59 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = ../SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				611D9E1F18B0979500A0DD09 /* FirstViewController.m */,
 				611D9E2118B0979500A0DD09 /* SecondViewController.h */,
 				611D9E2218B0979500A0DD09 /* SecondViewController.m */,
+				DDD4294418B842D20097CF59 /* SignUpViewController.h */,
+				DDD4294518B842D20097CF59 /* SignUpViewController.m */,
 				611D9E5518B09A0600A0DD09 /* Main.storyboard */,
 				DD1C950118B5F60F0098B2FC /* CustomLogInViewController.h */,
 				DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */,
@@ -309,6 +314,7 @@
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
+				DDD4294618B842D20097CF59 /* SignUpViewController.m in Sources */,
 				611D9E1618B0979500A0DD09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
