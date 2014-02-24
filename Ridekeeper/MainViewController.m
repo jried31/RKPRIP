@@ -35,4 +35,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - ()
+
+- (IBAction)logOutButtonTapAction:(id)sender {
+    [PFUser logOut];
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 @end

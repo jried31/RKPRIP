@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="kQu-n1-1Fk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A3017" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="kQu-n1-1Fk">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
@@ -411,12 +411,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UUf-Zp-dhf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2559" y="1135"/>
+            <point key="canvasLocation" x="-2557" y="1137"/>
         </scene>
-        <!--View Controller - MainViewController-->
+        <!--Main View Controller-->
         <scene sceneID="m9f-X2-XkG">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" title="MainViewController" id="YOO-bg-u5y" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="YOO-bg-u5y" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iRW-0V-oqJ"/>
                         <viewControllerLayoutGuide type="bottom" id="JA1-uQ-08x"/>
@@ -470,13 +470,14 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2O-LK-37s">
-                                <rect key="frame" x="117" y="537" width="93" height="31"/>
+                                <rect key="frame" x="113" y="530" width="93" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kQu-n1-1Fk" kind="modal" id="jdU-AY-UBJ"/>
+                                    <action selector="logOutButtonTapAction:" destination="YOO-bg-u5y" eventType="touchUpInside" id="fBK-QW-EJ2"/>
+                                    <segue destination="kQu-n1-1Fk" kind="modal" id="lU2-Hs-PRl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -520,6 +521,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="0uc-zB-lbE"/>
+        <segue reference="Zjb-rB-EwV"/>
     </inferredMetricsTieBreakers>
 </document>

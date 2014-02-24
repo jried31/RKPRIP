@@ -26,11 +26,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
-    // Do any additional setup after loading the view.
-    [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]]];
-    //[self.logInView.signUpButton setTitle:@"" forState:UIControlStateNormal];
-	
+	// Do any additional setup after loading the view.
+    [self.logInView setLogo:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"logo.png"]]];    
 }
 
 - (void)didReceiveMemoryWarning
@@ -41,7 +38,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    //[PFUser logOut];
+    
     if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller
         PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
@@ -57,6 +54,7 @@
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
     }
+    //User is logged in so go to MainViewController
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     UIViewController *vc = (UIViewController *)[storyboard instantiateViewControllerWithIdentifier:@"MainViewController"];
     [self presentViewController:vc animated:YES completion:nil];
@@ -121,7 +119,6 @@
 // Sent to the delegate when a PFUser is signed up.
 - (void)signUpViewController:(PFSignUpViewController *)signUpController didSignUpUser:(PFUser *)user {
     [self dismissModalViewControllerAnimated:YES]; // Dismiss the PFSignUpViewController
-    //At this point we must create QuickBlox account for the user and save in Parse
 }
 
 // Sent to the delegate when the sign up attempt fails.

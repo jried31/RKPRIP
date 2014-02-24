@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface MainViewController : UIViewController
+
+- (IBAction)logOutButtonTapAction:(id)sender;
 
 @end
