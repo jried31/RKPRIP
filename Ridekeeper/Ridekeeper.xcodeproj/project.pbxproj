@@ -31,7 +31,6 @@
 		611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4A18B0985B00A0DD09 /* StoreKit.framework */; };
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
-		613B824318BD3C4B00839E1A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 		618C363C18BC206500648CE7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C363B18BC206500648CE7 /* background.png */; };
 		618C364218BC499000648CE7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C364118BC499000648CE7 /* ProfileViewController.m */; };
 		618C364418BC777E00648CE7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C364318BC777E00648CE7 /* Settings.png */; };
@@ -40,6 +39,7 @@
 		619D263418B5DCF000CEBBA0 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D263318B5DCF000CEBBA0 /* Main.png */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
+		FF98AD3918BD3E130078E5B0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,7 +109,7 @@
 				611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */,
 				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
 				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
-				613B824318BD3C4B00839E1A /* Parse.framework in Frameworks */,
+				FF98AD3918BD3E130078E5B0 /* Parse.framework in Frameworks */,
 				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
 				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
@@ -467,6 +467,7 @@
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
 					/Users/rosa/Desktop/Developer/RKPRIP/Ridekeeper,
 					/Users/dennisgrijalva/Documents/CSM117/Riderkeeper/RKPRIP/Ridekeeper,
+					/Users/cliccuser/Documents/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -490,6 +491,7 @@
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
 					/Users/rosa/Desktop/Developer/RKPRIP/Ridekeeper,
 					/Users/dennisgrijalva/Documents/CSM117/Riderkeeper/RKPRIP/Ridekeeper,
+					/Users/cliccuser/Documents/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
