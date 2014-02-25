@@ -101,9 +101,20 @@
 - (IBAction)SaveProfile:(UIButton *)sender {
     
     //update view
-    self.NameLabel.text = self.NameTextField.text;
-    self.EmailLabel.text = self.EmailTextField.text;
-    self.PhoneLabel.text = self.PhoneTextField.text;
+    if(![self.NameTextField.text  isEqual: @""]){
+    
+        self.NameLabel.text = self.NameTextField.text;
+    }
+    
+    if(![self.EmailTextField.text  isEqual: @""]){
+        
+        self.EmailLabel.text = self.EmailTextField.text;
+    }
+    
+    if(![self.PhoneTextField.text  isEqual: @""]){
+    
+        self.PhoneLabel.text = self.PhoneTextField.text;
+    }
     
     //clear fields on the view
     self.NameTextField.text = @"";
