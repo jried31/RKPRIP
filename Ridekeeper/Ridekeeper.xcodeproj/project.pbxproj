@@ -32,6 +32,7 @@
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
 		618C363C18BC206500648CE7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C363B18BC206500648CE7 /* background.png */; };
+		618C364218BC499000648CE7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C364118BC499000648CE7 /* ProfileViewController.m */; };
 		619D262C18B5A8F900CEBBA0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D262B18B5A8F900CEBBA0 /* logo.png */; };
 		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
 		619D263418B5DCF000CEBBA0 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D263318B5DCF000CEBBA0 /* Main.png */; };
@@ -83,6 +84,8 @@
 		611D9E5D18B0A50600A0DD09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		618C363B18BC206500648CE7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		618C364018BC499000648CE7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
+		618C364118BC499000648CE7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
 		619D262B18B5A8F900CEBBA0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		619D263118B5DCC600CEBBA0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		619D263318B5DCF000CEBBA0 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 		611D9E0F18B0979500A0DD09 /* RideKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				618C364018BC499000648CE7 /* ProfileViewController.h */,
+				618C364118BC499000648CE7 /* ProfileViewController.m */,
 				611D9E1818B0979500A0DD09 /* AppDelegate.h */,
 				611D9E1918B0979500A0DD09 /* AppDelegate.m */,
 				619D263518B5EF0800CEBBA0 /* MainViewController.h */,
@@ -323,6 +328,7 @@
 				619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
+				618C364218BC499000648CE7 /* ProfileViewController.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
 				611D9E1618B0979500A0DD09 /* main.m in Sources */,
 			);
