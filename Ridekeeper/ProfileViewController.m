@@ -17,6 +17,9 @@
 @synthesize NameTextField = _NameTextField;
 @synthesize EmailTextField = _EmailTextField;
 @synthesize PhoneTextField = _PhoneTextField;
+@synthesize NameLabel = _NameLabel;
+@synthesize EmailLabel = _EmailLabel;
+@synthesize PhoneLabel = _PhoneLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,7 +33,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view.
+    
+    //load values current stored in parse
+    //self.NameLabel.text = @"Currently saved Name";
+    //self.EmailLabel.text = @"Currently saved email";
+    //self.PhoneLabel.text = @"Currently saved #";
+    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -87,7 +97,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+//save new values to parse and update view
 - (IBAction)SaveProfile:(UIButton *)sender {
     
+    //update view
+    self.NameLabel.text = self.NameTextField.text;
+    self.EmailLabel.text = self.EmailTextField.text;
+    self.PhoneLabel.text = self.PhoneTextField.text;
+    
+    //clear fields on the view
+    self.NameTextField.text = @"";
+    self.EmailTextField.text = @"";
+    self.PhoneTextField.text = @"";
 }
 @end
