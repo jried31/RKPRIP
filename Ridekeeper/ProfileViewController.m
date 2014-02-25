@@ -41,6 +41,10 @@
     //self.EmailLabel.text = @"Currently saved email";
     //self.PhoneLabel.text = @"Currently saved #";
     
+    self.NameTextField.text = @"value saved in parse";
+    self.EmailTextField.text = @"value saved in parse";
+    self.PhoneTextField.text = @"value saved in parse";
+    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
@@ -100,25 +104,11 @@
 //save new values to parse and update view
 - (IBAction)SaveProfile:(UIButton *)sender {
     
-    //update view
-    if(![self.NameTextField.text  isEqual: @""]){
     
-        self.NameLabel.text = self.NameTextField.text;
-    }
-    
-    if(![self.EmailTextField.text  isEqual: @""]){
-        
-        self.EmailLabel.text = self.EmailTextField.text;
-    }
-    
-    if(![self.PhoneTextField.text  isEqual: @""]){
-    
-        self.PhoneLabel.text = self.PhoneTextField.text;
-    }
-    
-    //clear fields on the view
-    self.NameTextField.text = @"";
-    self.EmailTextField.text = @"";
-    self.PhoneTextField.text = @"";
+    //save these updated fields to parse
+    /*
+     self.NameTextField.text
+     self.EmailTextField.text
+     self.PhoneTextField.text*/
 }
 @end
