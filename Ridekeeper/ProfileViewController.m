@@ -17,9 +17,6 @@
 @synthesize NameTextField = _NameTextField;
 @synthesize EmailTextField = _EmailTextField;
 @synthesize PhoneTextField = _PhoneTextField;
-@synthesize NameLabel = _NameLabel;
-@synthesize EmailLabel = _EmailLabel;
-@synthesize PhoneLabel = _PhoneLabel;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

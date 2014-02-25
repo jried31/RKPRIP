@@ -12,9 +12,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *NameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *EmailTextField;
 @property (weak, nonatomic) IBOutlet UITextField *PhoneTextField;
-@property (weak, nonatomic) IBOutlet UILabel *NameLabel;
-@property (weak, nonatomic) IBOutlet UILabel *EmailLabel;
-@property (weak, nonatomic) IBOutlet UILabel *PhoneLabel;
 
 - (IBAction)SaveProfile:(UIButton *)sender;
 
