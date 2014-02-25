@@ -38,7 +38,8 @@
 		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
 		619D263418B5DCF000CEBBA0 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D263318B5DCF000CEBBA0 /* Main.png */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
-		FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		9844E26118BCB16C00FC5D6B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,8 @@
 		619D263318B5DCF000CEBBA0 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
 		619D263518B5EF0800CEBBA0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		619D263618B5EF0800CEBBA0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
+		9844E26718BCB56D00FC5D6B /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingsViewController.h; path = ../settingsViewController.h; sourceTree = "<group>"; };
+		9844E26818BCB56D00FC5D6B /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingsViewController.m; path = ../settingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +109,7 @@
 				611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */,
 				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
 				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
-				FF251DEC18B53656008E3AFB /* Parse.framework in Frameworks */,
+				9844E26118BCB16C00FC5D6B /* Parse.framework in Frameworks */,
 				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
 				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
@@ -184,6 +187,8 @@
 				611D9E2218B0979500A0DD09 /* SecondViewController.m */,
 				611D9E5D18B0A50600A0DD09 /* LoginViewController.h */,
 				611D9E5E18B0A50600A0DD09 /* LoginViewController.m */,
+				9844E26718BCB56D00FC5D6B /* settingsViewController.h */,
+				9844E26818BCB56D00FC5D6B /* settingsViewController.m */,
 				619D263118B5DCC600CEBBA0 /* Main.storyboard */,
 				611D9E2418B0979500A0DD09 /* Images.xcassets */,
 				611D9E1018B0979500A0DD09 /* Supporting Files */,
@@ -279,7 +284,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */;
+			buildConfigurationList = 611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "Ridekeeper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -331,6 +336,7 @@
 				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
 				619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
+				9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
 				618C364218BC499000648CE7 /* ProfileViewController.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
@@ -459,6 +465,7 @@
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
+					/Users/rosa/Desktop/Developer/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -480,6 +487,7 @@
 					"$(inherited)",
 					/Users/dennisgrijalva/Documents/CSM117/Working/RideKeeper,
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
+					/Users/rosa/Desktop/Developer/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -535,7 +543,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "RideKeeper" */ = {
+		611D9E0118B0979500A0DD09 /* Build configuration list for PBXProject "Ridekeeper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				611D9E3918B0979500A0DD09 /* Debug */,
