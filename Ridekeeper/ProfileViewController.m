@@ -101,7 +101,6 @@
 //save new values to parse and update view
 - (IBAction)SaveProfile:(UIButton *)sender {
     
-    
     //save these updated fields to parse
     /*
      self.NameTextField.text
