@@ -40,6 +40,9 @@
 		619D263418B5DCF000CEBBA0 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D263318B5DCF000CEBBA0 /* Main.png */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
+		9852030318BE3342005FCEB1 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 9852030118BE2FED005FCEB1 /* sounds */; };
+		9852030518BE3402005FCEB1 /* tap.aif in Resources */ = {isa = PBXBuildFile; fileRef = 9852030418BE3402005FCEB1 /* tap.aif */; };
+		9852030718BE52F7005FCEB1 /* rev_engine_and_squeal.aif in Resources */ = {isa = PBXBuildFile; fileRef = 9852030618BE52F7005FCEB1 /* rev_engine_and_squeal.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +99,9 @@
 		619D263618B5EF0800CEBBA0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		9844E26718BCB56D00FC5D6B /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingsViewController.h; path = ../settingsViewController.h; sourceTree = "<group>"; };
 		9844E26818BCB56D00FC5D6B /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingsViewController.m; path = ../settingsViewController.m; sourceTree = "<group>"; };
+		9852030118BE2FED005FCEB1 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = "../../Apple Sample Projects/SysSound/Resources/sounds"; sourceTree = "<group>"; };
+		9852030418BE3402005FCEB1 /* tap.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = tap.aif; sourceTree = "<group>"; };
+		9852030618BE52F7005FCEB1 /* rev_engine_and_squeal.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = rev_engine_and_squeal.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				611D9E0F18B0979500A0DD09 /* RideKeeper */,
+				9852030118BE2FED005FCEB1 /* sounds */,
 				611D9E3118B0979500A0DD09 /* RideKeeperTests */,
 				611D9E0818B0979500A0DD09 /* Frameworks */,
 				611D9E0718B0979500A0DD09 /* Products */,
@@ -180,6 +187,7 @@
 				611D9E1818B0979500A0DD09 /* AppDelegate.h */,
 				611D9E1918B0979500A0DD09 /* AppDelegate.m */,
 				619D263518B5EF0800CEBBA0 /* MainViewController.h */,
+				9852030618BE52F7005FCEB1 /* rev_engine_and_squeal.aif */,
 				619D263618B5EF0800CEBBA0 /* MainViewController.m */,
 				611D9E1E18B0979500A0DD09 /* FirstViewController.h */,
 				611D9E1F18B0979500A0DD09 /* FirstViewController.m */,
@@ -203,6 +211,7 @@
 				618C363B18BC206500648CE7 /* background.png */,
 				619D263318B5DCF000CEBBA0 /* Main.png */,
 				619D262B18B5A8F900CEBBA0 /* logo.png */,
+				9852030418BE3402005FCEB1 /* tap.aif */,
 				611D9E1118B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */,
 				611D9E1218B0979500A0DD09 /* InfoPlist.strings */,
 				611D9E1518B0979500A0DD09 /* main.m */,
@@ -310,9 +319,12 @@
 			files = (
 				618C364418BC777E00648CE7 /* Settings.png in Resources */,
 				619D262C18B5A8F900CEBBA0 /* logo.png in Resources */,
+				9852030318BE3342005FCEB1 /* sounds in Resources */,
+				9852030718BE52F7005FCEB1 /* rev_engine_and_squeal.aif in Resources */,
 				618C363C18BC206500648CE7 /* background.png in Resources */,
 				611D9E2518B0979500A0DD09 /* Images.xcassets in Resources */,
 				619D263418B5DCF000CEBBA0 /* Main.png in Resources */,
+				9852030518BE3402005FCEB1 /* tap.aif in Resources */,
 				611D9E1418B0979500A0DD09 /* InfoPlist.strings in Resources */,
 				619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */,
 			);

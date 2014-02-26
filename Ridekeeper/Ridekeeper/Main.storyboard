@@ -205,10 +205,10 @@
             </objects>
             <point key="canvasLocation" x="186" y="961"/>
         </scene>
-        <!--View Controller-->
+        <!--Settings View Controller-->
         <scene sceneID="cFr-aS-Eos">
             <objects>
-                <viewController id="REs-eM-CJA" sceneMemberID="viewController">
+                <viewController id="REs-eM-CJA" customClass="settingsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zFF-W4-D71"/>
                         <viewControllerLayoutGuide type="bottom" id="9s3-Zk-JkF"/>
@@ -221,10 +221,10 @@
                                 <rect key="frame" x="0.0" y="15" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <navigationItem title="Title" id="Viu-jA-pek">
+                                    <navigationItem title="SETTINGS" id="Viu-jA-pek">
                                         <barButtonItem key="leftBarButtonItem" style="plain" systemItem="done" id="aiG-q3-Mft">
                                             <connections>
-                                                <segue destination="YOO-bg-u5y" kind="modal" id="mQc-p0-eiJ"/>
+                                                <segue destination="YOO-bg-u5y" kind="modal" id="KOJ-Gb-AZN"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -234,147 +234,149 @@
                                 <rect key="frame" x="0.0" y="59" width="320" height="509"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vG7-tC-tY3">
-                                <rect key="frame" x="20" y="338" width="45" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Beep">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbm-XU-EXj">
-                                <rect key="frame" x="75" y="338" width="45" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Alert">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="jXT-q1-xY6">
-                                <rect key="frame" x="220" y="338" width="80" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Long Vibration">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="5Rg-t0-EBh">
-                                <rect key="frame" x="129" y="338" width="80" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Short Vibration"/>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="My Vehicle Fucked With:" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="buC-V2-WhE">
-                                <rect key="frame" x="20" y="300" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="My Vehicle Stolen:" borderStyle="roundedRect" placeholder="My Vehicle Stolen:" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yih-dU-edI">
-                                <rect key="frame" x="20" y="130" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Nearby Stolen Vehicle:" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="egR-0a-8gb">
-                                <rect key="frame" x="20" y="478" width="280" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHEN ONE OF YOUR VEHICLES IS STOLEN" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="g47-45-8qo">
-                                <rect key="frame" x="20" y="75" width="280" height="47"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE OF YOUR VEHICLES IS BEING STOLEN" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="g47-45-8qo">
+                                <rect key="frame" x="20" y="85" width="280" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHEN ONE OF YOUR VEHICLES IS LIFTED / TILTED" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="b6X-0I-Pkk">
-                                <rect key="frame" x="20" y="245" width="280" height="47"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ONE OF YOUR VEHICLES IS BEING LIFTED / TILTED" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="b6X-0I-Pkk">
+                                <rect key="frame" x="20" y="252" width="280" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WHEN THERE ARE NEARBY STOLEN VEHICLES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Wyz-Yz-QPO">
-                                <rect key="frame" x="20" y="421" width="280" height="47"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THERE ARE NEARBY STOLEN VEHICLES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="Wyz-Yz-QPO">
+                                <rect key="frame" x="20" y="428" width="280" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lN6-Mq-Pop">
-                                <rect key="frame" x="20" y="168" width="45" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="lN6-Mq-Pop">
+                                <rect key="frame" x="20" y="139" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Beep">
+                                <state key="normal" title="Only Sound">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeSettingsToMyVehicleBeingStolen:" destination="REs-eM-CJA" eventType="touchUpInside" id="yF8-kj-r7g"/>
+                                    <action selector="playSound:" destination="REs-eM-CJA" eventType="touchUpInside" id="fya-0W-1ee"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tyY-EU-ebW">
-                                <rect key="frame" x="75" y="168" width="45" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="tyY-EU-ebW">
+                                <rect key="frame" x="125" y="139" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Alert">
+                                <state key="normal" title="Sound &amp; Vibration">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EVn-0v-5RH">
-                                <rect key="frame" x="220" y="168" width="80" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Long Vibration">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <action selector="changeSettingsToMyVehicleBeingStolen:" destination="REs-eM-CJA" eventType="touchUpInside" id="r1h-06-O3l"/>
+                                    <action selector="playSoundAndVibrate:" destination="REs-eM-CJA" eventType="touchUpInside" id="PCu-jK-lLl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="514-nJ-xDr">
-                                <rect key="frame" x="129" y="168" width="80" height="35"/>
+                                <rect key="frame" x="230" y="139" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Short Vibration"/>
+                                <state key="normal" title="Only Vibration"/>
+                                <connections>
+                                    <action selector="changeSettingsToMyVehicleBeingStolen:" destination="REs-eM-CJA" eventType="touchUpInside" id="Um1-8v-9wy"/>
+                                    <action selector="vibrate:" destination="REs-eM-CJA" eventType="touchUpInside" id="45l-Hp-kMk"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ehI-ED-cAB">
-                                <rect key="frame" x="20" y="516" width="45" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="0fo-s9-PHb">
+                                <rect key="frame" x="20" y="300" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Beep">
+                                <state key="normal" title="Only Sound">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeSettingsToMyVehicleBeingMoved:" destination="REs-eM-CJA" eventType="touchUpInside" id="kJA-u2-WnR"/>
+                                    <action selector="playSound:" destination="REs-eM-CJA" eventType="touchUpInside" id="u3H-OU-ks8"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwF-nS-Yrt">
-                                <rect key="frame" x="75" y="516" width="45" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="2At-2d-Rbu">
+                                <rect key="frame" x="125" y="300" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Alert">
+                                <state key="normal" title="Sound &amp; Vibration">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeSettingsToMyVehicleBeingMoved:" destination="REs-eM-CJA" eventType="touchUpInside" id="Kwr-FU-yUA"/>
+                                    <action selector="playSoundAndVibrate:" destination="REs-eM-CJA" eventType="touchUpInside" id="a9z-yr-8Ee"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="vDX-pI-Woj">
-                                <rect key="frame" x="220" y="516" width="80" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EET-1W-KeS">
+                                <rect key="frame" x="230" y="300" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Long Vibration">
+                                <state key="normal" title="Only Vibration"/>
+                                <connections>
+                                    <action selector="changeSettingsToMyVehicleBeingMoved:" destination="REs-eM-CJA" eventType="touchUpInside" id="Xkr-D4-XXd"/>
+                                    <action selector="vibrate:" destination="REs-eM-CJA" eventType="touchUpInside" id="Jff-h2-UcS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="EhG-bh-Ofd">
+                                <rect key="frame" x="20" y="476" width="70" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Only Sound">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="changeSettingsToOtherVehicleBeingStolen:" destination="REs-eM-CJA" eventType="touchUpInside" id="4rj-fB-RGW"/>
+                                    <action selector="playSound:" destination="REs-eM-CJA" eventType="touchUpInside" id="QoV-Ew-9uf"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hJI-QS-qoN">
-                                <rect key="frame" x="129" y="516" width="80" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="HrH-mO-cVm">
+                                <rect key="frame" x="125" y="476" width="70" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="Short Vibration"/>
+                                <state key="normal" title="Sound &amp; Vibration">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="changeSettingsToOtherVehicleBeingStolen:" destination="REs-eM-CJA" eventType="touchUpInside" id="5Tk-wp-6PH"/>
+                                    <action selector="playSoundAndVibrate:" destination="REs-eM-CJA" eventType="touchUpInside" id="Bht-IW-72k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="uBG-50-7M8">
+                                <rect key="frame" x="230" y="476" width="70" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Only Vibration"/>
+                                <connections>
+                                    <action selector="changeSettingsToOtherVehicleBeingStolen:" destination="REs-eM-CJA" eventType="touchUpInside" id="53a-6B-w43"/>
+                                    <action selector="vibrate:" destination="REs-eM-CJA" eventType="touchUpInside" id="ped-tO-Mvs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myVehicleBeingMovedSettingLabel" destination="b6X-0I-Pkk" id="whJ-L1-Oby"/>
+                        <outlet property="myVehicleBeingMovedSoundAndVibrationButton" destination="2At-2d-Rbu" id="PWO-GJ-1Ya"/>
+                        <outlet property="myVehicleBeingMovedSoundOnlyButton" destination="0fo-s9-PHb" id="agn-O3-YhO"/>
+                        <outlet property="myVehicleBeingMovedVibrationOnlyButton" destination="EET-1W-KeS" id="AcV-Cg-K0b"/>
+                        <outlet property="myVehicleBeingStolenSettingLabel" destination="g47-45-8qo" id="X5L-gD-d4g"/>
+                        <outlet property="myVehicleBeingStolenSoundAndVibrationButton" destination="tyY-EU-ebW" id="gps-Hq-iae"/>
+                        <outlet property="myVehicleBeingStolenSoundOnlyButton" destination="lN6-Mq-Pop" id="kOp-zu-kGl"/>
+                        <outlet property="myVehicleBeingStolenVibrationOnlyButton" destination="514-nJ-xDr" id="a4s-2B-aV7"/>
+                        <outlet property="otherVehicleBeingStolenSoundAndVibrationButton" destination="HrH-mO-cVm" id="5LP-8G-RTg"/>
+                        <outlet property="otherVehicleBeingStolenSoundOnlyButton" destination="EhG-bh-Ofd" id="0sV-IT-i5D"/>
+                        <outlet property="otherVehicleBeingStolenVibrationOnlyButton" destination="uBG-50-7M8" id="JUo-1N-vwz"/>
+                        <outlet property="stolenVehicleIsNearbySettingLabel" destination="Wyz-Yz-QPO" id="pWI-HD-yaO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2pR-Qy-bOV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -608,6 +610,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="mQc-p0-eiJ"/>
+        <segue reference="KOJ-Gb-AZN"/>
     </inferredMetricsTieBreakers>
 </document>
