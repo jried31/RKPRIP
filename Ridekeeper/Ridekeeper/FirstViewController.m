@@ -14,6 +14,8 @@
 
 @implementation FirstViewController
 
+//@synthesize myVehicleList = _myVehicleList;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -26,4 +28,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)saveVehicles:(UIButton *)sender {
+}
 @end
