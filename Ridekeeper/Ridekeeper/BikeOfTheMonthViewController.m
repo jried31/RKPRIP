@@ -1,18 +1,18 @@
 //
-//  MainViewController.m
-//  RideKeeper
+//  BikeOfTheMonthViewController.m
+//  Ridekeeper
 //
-//  Created by Dennis Grijalva on 2/20/14.
+//  Created by Dennis Grijalva on 2/26/14.
 //  Copyright (c) 2014 Dennis Grijalva. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "BikeOfTheMonthViewController.h"
 
-@interface MainViewController ()
+@interface BikeOfTheMonthViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation BikeOfTheMonthViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -26,7 +26,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
 	// Do any additional setup after loading the view.
 }
 
@@ -34,13 +33,6 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-#pragma mark - ()
-
-- (IBAction)logOutButtonTapAction:(id)sender {
-    [PFUser logOut];
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

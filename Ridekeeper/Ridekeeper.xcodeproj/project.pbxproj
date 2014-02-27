@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		611167C718BEF285005C63EE /* garage.png in Resources */ = {isa = PBXBuildFile; fileRef = 611167C618BEF285005C63EE /* garage.png */; };
+		611167C918BEF59D005C63EE /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 611167C818BEF59D005C63EE /* profile.png */; };
+		611167CB18BEF747005C63EE /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 611167CA18BEF747005C63EE /* settings.png */; };
+		611167CD18BEF881005C63EE /* bike.png in Resources */ = {isa = PBXBuildFile; fileRef = 611167CC18BEF881005C63EE /* bike.png */; };
 		611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0918B0979500A0DD09 /* Foundation.framework */; };
 		611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0B18B0979500A0DD09 /* CoreGraphics.framework */; };
 		611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E0D18B0979500A0DD09 /* UIKit.framework */; };
@@ -31,13 +35,13 @@
 		611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4A18B0985B00A0DD09 /* StoreKit.framework */; };
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
+		61378C5F18BEFFF400BE7CC1 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 61378C5E18BEFFF400BE7CC1 /* button.png */; };
+		61378C6218BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61378C6118BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m */; };
 		613B824318BD3C4B00839E1A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
-		618C363C18BC206500648CE7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C363B18BC206500648CE7 /* background.png */; };
 		618C364218BC499000648CE7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C364118BC499000648CE7 /* ProfileViewController.m */; };
 		618C364418BC777E00648CE7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C364318BC777E00648CE7 /* Settings.png */; };
 		619D262C18B5A8F900CEBBA0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D262B18B5A8F900CEBBA0 /* logo.png */; };
 		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
-		619D263418B5DCF000CEBBA0 /* Main.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D263318B5DCF000CEBBA0 /* Main.png */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
 /* End PBXBuildFile section */
@@ -53,6 +57,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		611167C618BEF285005C63EE /* garage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = garage.png; path = ../garage.png; sourceTree = "<group>"; };
+		611167C818BEF59D005C63EE /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../profile.png; sourceTree = "<group>"; };
+		611167CA18BEF747005C63EE /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../settings.png; sourceTree = "<group>"; };
+		611167CC18BEF881005C63EE /* bike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bike.png; path = ../bike.png; sourceTree = "<group>"; };
 		611D9E0618B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		611D9E0918B0979500A0DD09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		611D9E0B18B0979500A0DD09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,13 +93,14 @@
 		611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		611D9E5D18B0A50600A0DD09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		618C363B18BC206500648CE7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../background.png; sourceTree = "<group>"; };
+		61378C5E18BEFFF400BE7CC1 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../button.png; sourceTree = "<group>"; };
+		61378C6018BF0D8700BE7CC1 /* BikeOfTheMonthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BikeOfTheMonthViewController.h; path = Ridekeeper/BikeOfTheMonthViewController.h; sourceTree = SOURCE_ROOT; };
+		61378C6118BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BikeOfTheMonthViewController.m; path = Ridekeeper/BikeOfTheMonthViewController.m; sourceTree = SOURCE_ROOT; };
 		618C364018BC499000648CE7 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = ../ProfileViewController.h; sourceTree = "<group>"; };
 		618C364118BC499000648CE7 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = ../ProfileViewController.m; sourceTree = "<group>"; };
 		618C364318BC777E00648CE7 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		619D262B18B5A8F900CEBBA0 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		619D263118B5DCC600CEBBA0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		619D263318B5DCF000CEBBA0 /* Main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Main.png; sourceTree = "<group>"; };
 		619D263518B5EF0800CEBBA0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
 		619D263618B5EF0800CEBBA0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		9844E26718BCB56D00FC5D6B /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingsViewController.h; path = ../settingsViewController.h; sourceTree = "<group>"; };
@@ -175,6 +184,8 @@
 		611D9E0F18B0979500A0DD09 /* RideKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				61378C6018BF0D8700BE7CC1 /* BikeOfTheMonthViewController.h */,
+				61378C6118BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m */,
 				618C364018BC499000648CE7 /* ProfileViewController.h */,
 				618C364118BC499000648CE7 /* ProfileViewController.m */,
 				611D9E1818B0979500A0DD09 /* AppDelegate.h */,
@@ -199,9 +210,12 @@
 		611D9E1018B0979500A0DD09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				61378C5E18BEFFF400BE7CC1 /* button.png */,
+				611167CC18BEF881005C63EE /* bike.png */,
+				611167CA18BEF747005C63EE /* settings.png */,
+				611167C818BEF59D005C63EE /* profile.png */,
 				618C364318BC777E00648CE7 /* Settings.png */,
-				618C363B18BC206500648CE7 /* background.png */,
-				619D263318B5DCF000CEBBA0 /* Main.png */,
+				611167C618BEF285005C63EE /* garage.png */,
 				619D262B18B5A8F900CEBBA0 /* logo.png */,
 				611D9E1118B0979500A0DD09 /* RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist */,
 				611D9E1218B0979500A0DD09 /* InfoPlist.strings */,
@@ -308,11 +322,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61378C5F18BEFFF400BE7CC1 /* button.png in Resources */,
 				618C364418BC777E00648CE7 /* Settings.png in Resources */,
 				619D262C18B5A8F900CEBBA0 /* logo.png in Resources */,
-				618C363C18BC206500648CE7 /* background.png in Resources */,
 				611D9E2518B0979500A0DD09 /* Images.xcassets in Resources */,
-				619D263418B5DCF000CEBBA0 /* Main.png in Resources */,
+				611167C918BEF59D005C63EE /* profile.png in Resources */,
+				611167C718BEF285005C63EE /* garage.png in Resources */,
+				611167CB18BEF747005C63EE /* settings.png in Resources */,
+				611167CD18BEF881005C63EE /* bike.png in Resources */,
 				611D9E1418B0979500A0DD09 /* InfoPlist.strings in Resources */,
 				619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */,
 			);
@@ -336,6 +353,7 @@
 				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
 				619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
+				61378C6218BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m in Sources */,
 				9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
 				618C364218BC499000648CE7 /* ProfileViewController.m in Sources */,
