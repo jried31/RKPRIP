@@ -44,6 +44,11 @@
 		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
+		FF5E687818BFFA890084A500 /* garageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E687718BFFA890084A500 /* garageViewController.m */; };
+		FF5E687B18BFFD920084A500 /* garageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E687A18BFFD920084A500 /* garageCell.m */; };
+		FF5E687E18C000ED0084A500 /* 2013KawasakiNinja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5E687C18C000ED0084A500 /* 2013KawasakiNinja.jpg */; };
+		FF5E687F18C000ED0084A500 /* 2014SuzukiHayabusa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF5E687D18C000ED0084A500 /* 2014SuzukiHayabusa.jpg */; };
+		FF5E688218C0052C0084A500 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5E688118C0052C0084A500 /* detailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +110,14 @@
 		619D263618B5EF0800CEBBA0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		9844E26718BCB56D00FC5D6B /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingsViewController.h; path = ../settingsViewController.h; sourceTree = "<group>"; };
 		9844E26818BCB56D00FC5D6B /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingsViewController.m; path = ../settingsViewController.m; sourceTree = "<group>"; };
+		FF5E687618BFFA890084A500 /* garageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = garageViewController.h; path = Ridekeeper/garageViewController.h; sourceTree = SOURCE_ROOT; };
+		FF5E687718BFFA890084A500 /* garageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = garageViewController.m; path = Ridekeeper/garageViewController.m; sourceTree = SOURCE_ROOT; };
+		FF5E687918BFFD920084A500 /* garageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = garageCell.h; path = Ridekeeper/garageCell.h; sourceTree = SOURCE_ROOT; };
+		FF5E687A18BFFD920084A500 /* garageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = garageCell.m; path = Ridekeeper/garageCell.m; sourceTree = SOURCE_ROOT; };
+		FF5E687C18C000ED0084A500 /* 2013KawasakiNinja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2013KawasakiNinja.jpg; path = ../../../2013KawasakiNinja.jpg; sourceTree = "<group>"; };
+		FF5E687D18C000ED0084A500 /* 2014SuzukiHayabusa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2014SuzukiHayabusa.jpg; path = ../../../2014SuzukiHayabusa.jpg; sourceTree = "<group>"; };
+		FF5E688018C0052C0084A500 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = detailViewController.h; path = Ridekeeper/detailViewController.h; sourceTree = SOURCE_ROOT; };
+		FF5E688118C0052C0084A500 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = detailViewController.m; path = Ridekeeper/detailViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +207,12 @@
 				619D263618B5EF0800CEBBA0 /* MainViewController.m */,
 				611D9E1E18B0979500A0DD09 /* FirstViewController.h */,
 				611D9E1F18B0979500A0DD09 /* FirstViewController.m */,
+				FF5E687618BFFA890084A500 /* garageViewController.h */,
+				FF5E687718BFFA890084A500 /* garageViewController.m */,
+				FF5E687918BFFD920084A500 /* garageCell.h */,
+				FF5E687A18BFFD920084A500 /* garageCell.m */,
+				FF5E688018C0052C0084A500 /* detailViewController.h */,
+				FF5E688118C0052C0084A500 /* detailViewController.m */,
 				611D9E2118B0979500A0DD09 /* SecondViewController.h */,
 				611D9E2218B0979500A0DD09 /* SecondViewController.m */,
 				611D9E5D18B0A50600A0DD09 /* LoginViewController.h */,
@@ -210,6 +229,8 @@
 		611D9E1018B0979500A0DD09 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF5E687C18C000ED0084A500 /* 2013KawasakiNinja.jpg */,
+				FF5E687D18C000ED0084A500 /* 2014SuzukiHayabusa.jpg */,
 				61378C5E18BEFFF400BE7CC1 /* button.png */,
 				611167CC18BEF881005C63EE /* bike.png */,
 				611167CA18BEF747005C63EE /* settings.png */,
@@ -323,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61378C5F18BEFFF400BE7CC1 /* button.png in Resources */,
+				FF5E687F18C000ED0084A500 /* 2014SuzukiHayabusa.jpg in Resources */,
 				618C364418BC777E00648CE7 /* Settings.png in Resources */,
 				619D262C18B5A8F900CEBBA0 /* logo.png in Resources */,
 				611D9E2518B0979500A0DD09 /* Images.xcassets in Resources */,
@@ -331,6 +353,7 @@
 				611167CB18BEF747005C63EE /* settings.png in Resources */,
 				611167CD18BEF881005C63EE /* bike.png in Resources */,
 				611D9E1418B0979500A0DD09 /* InfoPlist.strings in Resources */,
+				FF5E687E18C000ED0084A500 /* 2013KawasakiNinja.jpg in Resources */,
 				619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,7 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5E687B18BFFD920084A500 /* garageCell.m in Sources */,
 				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
+				FF5E687818BFFA890084A500 /* garageViewController.m in Sources */,
 				619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				61378C6218BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m in Sources */,
@@ -359,6 +384,7 @@
 				618C364218BC499000648CE7 /* ProfileViewController.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
 				611D9E1618B0979500A0DD09 /* main.m in Sources */,
+				FF5E688218C0052C0084A500 /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
