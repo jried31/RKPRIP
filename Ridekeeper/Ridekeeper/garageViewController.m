@@ -45,8 +45,8 @@
     _Year = @[@"2013",
               @"2014",];
     
-    _Images = @[@"2013KawasakiNinja.jpg",
-                @"2014SuzukiHayabusa.jpg"];
+    _Images = @[@"2013KawasakiNinja.png",
+                @"2014SuzukiHayabusa.png"];
     
 }
 
