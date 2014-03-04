@@ -50,7 +50,7 @@
                                     <outlet property="ModelLabel" destination="4aY-Os-5It" id="Rjk-oY-kRI"/>
                                     <outlet property="ThumbImage" destination="XMN-Wy-q06" id="UU2-1B-A6C"/>
                                     <outlet property="YearLabel" destination="enl-3H-OZE" id="COk-XI-Arb"/>
-                                    <segue destination="inR-He-WKF" kind="push" identifier="ShowDetails" id="Hz6-hU-1bi"/>
+                                    <segue destination="xGY-SH-zoJ" kind="push" id="s9k-mZ-ASZ"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -69,26 +69,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="085-0H-c3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-246" y="-202"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Qg7-dl-sxf">
-            <objects>
-                <viewController id="inR-He-WKF" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cmg-Tn-wrZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="j29-am-iRx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JFL-T4-QuX">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="uAg-6L-9qJ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Al6-hs-UpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="151" y="-791"/>
+            <point key="canvasLocation" x="-130" y="-564"/>
         </scene>
         <!--Garage Map View Controller-->
         <scene sceneID="45A-cg-aq1">
@@ -103,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hSF-dT-fyk">
-                                <rect key="frame" x="0.0" y="492" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="472" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
                                     <barButtonItem style="plain" id="Vsz-iG-Qy3">
@@ -120,65 +101,173 @@
                                             </connections>
                                         </segmentedControl>
                                     </barButtonItem>
+                                    <barButtonItem id="7F1-Ju-gah">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KjF-yK-Kwn">
+                                            <rect key="frame" x="225" y="6" width="73" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Location">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="GetLocation:" destination="xGY-SH-zoJ" eventType="touchUpInside" id="YdQ-M8-dvZ"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="mNW-iu-vxO"/>
                                 </items>
                             </toolbar>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qzn-4V-JD4">
-                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="My Vehicle" id="F6M-eH-i3z"/>
-                                </items>
-                            </navigationBar>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="1cz-AL-5Pw">
-                                <rect key="frame" x="40" y="220" width="240" height="128"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="408"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="eBH-x1-Hxo"/>
                     <connections>
                         <outlet property="mapview" destination="1cz-AL-5Pw" id="aR5-Oe-D9g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rzh-yK-zjh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="780" y="-670"/>
+            <point key="canvasLocation" x="418" y="-692"/>
         </scene>
-        <!--Second View Controller - Second-->
-        <scene sceneID="ot8-2e-RuS">
+        <!--Stolen View Controller - Stolen Vehicles-->
+        <scene sceneID="Jn3-gK-wg4">
             <objects>
-                <viewController title="Second" id="QUy-BD-bpt" customClass="SecondViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CwJ-Cl-5zn"/>
-                        <viewControllerLayoutGuide type="bottom" id="TPe-2Z-d3W"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="gMD-aP-Fq6">
+                <tableViewController id="n9G-hO-6H2" customClass="StolenViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" sectionHeaderHeight="22" sectionFooterHeight="22" id="7h4-F1-5Rw">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ppM-OL-Ju9">
-                                <rect key="frame" x="0.0" y="15" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <items>
-                                    <navigationItem title="Vehicles Being Stolen" id="DgE-W8-FGV">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="7Gf-9V-LXn">
-                                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                            <connections>
-                                                <segue destination="YOO-bg-u5y" kind="modal" id="0uc-zB-lbE"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
-                        </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="Z7h-1E-pvt"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3qq-4t-Ow8" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StolenCell" rowHeight="90" id="rPm-X3-xdV" customClass="StolenCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="90"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rPm-X3-xdV" id="gQI-HF-oiM">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNH-Q0-QnG">
+                                            <rect key="frame" x="20" y="3" width="71" height="83"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        </imageView>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="stolenModelLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qlh-8H-V1n">
+                                            <rect key="frame" x="139" y="32" width="137" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="stolenYearLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m1m-0D-sNS">
+                                            <rect key="frame" x="139" y="61" width="122" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="stolenMakeLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpB-Ua-Uz5">
+                                            <rect key="frame" x="139" y="3" width="131" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="StolenMakeLabel" destination="SpB-Ua-Uz5" id="q1s-Hf-REs"/>
+                                    <outlet property="StolenModelLabel" destination="qlh-8H-V1n" id="ntR-gH-zii"/>
+                                    <outlet property="StolenThumbImage" destination="hNH-Q0-QnG" id="VrR-kF-kHW"/>
+                                    <outlet property="StolenYearLabel" destination="m1m-0D-sNS" id="9l8-2Z-bdA"/>
+                                    <segue destination="fyh-Ku-JYF" kind="push" id="ilV-bG-TEG"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="n9G-hO-6H2" id="i7K-4v-jmO"/>
+                            <outlet property="delegate" destination="n9G-hO-6H2" id="eFd-Wp-HDr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Stolen Vehicles" id="YY9-GW-IME">
+                        <barButtonItem key="leftBarButtonItem" title="Back" id="wrg-WT-uAP">
+                            <connections>
+                                <segue destination="YOO-bg-u5y" kind="modal" id="7os-Au-d08"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gjQ-Bc-uEL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="587" y="30"/>
+            <point key="canvasLocation" x="-72" y="347"/>
+        </scene>
+        <!--Stolen Map View Controller-->
+        <scene sceneID="8JX-Pf-ctC">
+            <objects>
+                <viewController id="fyh-Ku-JYF" customClass="stolenMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bS6-uE-dDQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="rv1-7c-gHP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4h9-6w-JhW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nwZ-ex-oGr">
+                                <rect key="frame" x="0.0" y="472" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem style="plain" id="5ki-c0-CmW">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="mrc-bn-XU3">
+                                            <rect key="frame" x="16" y="7" width="199" height="31"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <segments>
+                                                <segment title="Standard"/>
+                                                <segment title="Satellite"/>
+                                                <segment title="Hybrid"/>
+                                            </segments>
+                                            <connections>
+                                                <action selector="SetMap:" destination="fyh-Ku-JYF" eventType="valueChanged" id="gAJ-oh-waj"/>
+                                                <action selector="SetMap:" destination="xGY-SH-zoJ" eventType="valueChanged" id="lj7-JI-ZDu"/>
+                                            </connections>
+                                        </segmentedControl>
+                                    </barButtonItem>
+                                    <barButtonItem id="ktq-Ap-FxN">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gqM-ec-Qq4">
+                                            <rect key="frame" x="225" y="6" width="73" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Location">
+                                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="GetLocation:" destination="fyh-Ku-JYF" eventType="touchUpInside" id="q8h-xJ-7Fk"/>
+                                            </connections>
+                                        </button>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="CXm-oq-dYK"/>
+                                </items>
+                            </toolbar>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZNv-TE-aLk">
+                                <rect key="frame" x="0.0" y="64" width="320" height="408"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rv1-7c-gHP" firstAttribute="top" secondItem="nwZ-ex-oGr" secondAttribute="bottom" constant="32" id="7Uo-i3-yfK"/>
+                            <constraint firstItem="ZNv-TE-aLk" firstAttribute="top" secondItem="4h9-6w-JhW" secondAttribute="top" id="Jzv-GN-yoZ"/>
+                            <constraint firstItem="nwZ-ex-oGr" firstAttribute="top" secondItem="ZNv-TE-aLk" secondAttribute="bottom" id="KZ1-uT-gSB"/>
+                            <constraint firstAttribute="trailing" secondItem="ZNv-TE-aLk" secondAttribute="trailing" id="bNt-qx-JTr"/>
+                            <constraint firstItem="nwZ-ex-oGr" firstAttribute="leading" secondItem="ZNv-TE-aLk" secondAttribute="leading" id="lo1-c0-teP"/>
+                            <constraint firstItem="nwZ-ex-oGr" firstAttribute="leading" secondItem="4h9-6w-JhW" secondAttribute="leading" id="pUt-Yj-HDj"/>
+                            <constraint firstItem="ZNv-TE-aLk" firstAttribute="trailing" secondItem="nwZ-ex-oGr" secondAttribute="trailing" id="pmC-Pi-Ud9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="stolenmapview" destination="ZNv-TE-aLk" id="jS1-Fy-6W4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Qv-U0-q8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466" y="83"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="rIv-Rt-wIx">
@@ -620,8 +709,8 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="QUy-BD-bpt" kind="relationship" relationship="viewControllers" id="M8t-EP-wfW"/>
                         <segue destination="c5I-fv-3H4" kind="relationship" relationship="viewControllers" id="XtX-OY-9Fr"/>
+                        <segue destination="jlf-YI-qgk" kind="relationship" relationship="viewControllers" id="jkx-o4-5eN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
@@ -645,7 +734,27 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7L5-rF-lqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-699" y="-183"/>
+            <point key="canvasLocation" x="-640" y="-353"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="v8O-zF-w3K">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jlf-YI-qgk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="7b1-nx-3Mt"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="ufQ-HO-7oR"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mVb-Ra-7nc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="n9G-hO-6H2" kind="relationship" relationship="rootViewController" id="68V-Mq-fUh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9p-bz-Kr0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-500" y="385"/>
         </scene>
     </scenes>
     <resources>
@@ -653,7 +762,6 @@
         <image name="button.png" width="398" height="316"/>
         <image name="garage.png" width="230" height="393"/>
         <image name="profile.png" width="230" height="393"/>
-        <image name="second" width="30" height="30"/>
         <image name="settings.png" width="230" height="393"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
@@ -662,6 +770,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="0uc-zB-lbE"/>
+        <segue reference="NqF-rm-Jvz"/>
     </inferredMetricsTieBreakers>
 </document>

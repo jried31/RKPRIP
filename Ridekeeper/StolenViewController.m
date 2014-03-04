@@ -1,19 +1,19 @@
 //
-//  garageViewController.m
+//  StolenViewController.m
 //  Ridekeeper
 //
-//  Created by CLICC User on 2/27/14.
+//  Created by CLICC User on 3/4/14.
 //  Copyright (c) 2014 Dennis Grijalva. All rights reserved.
 //
 
-#import "garageViewController.h"
-#import "garageCell.h"
+#import "StolenViewController.h"
+#import "StolenCell.h"
 
-@interface garageViewController ()
+@interface StolenViewController ()
 
 @end
 
-@implementation garageViewController
+@implementation StolenViewController
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -34,19 +34,17 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    //data grabbed from parse database
-    _Make = @[@"First Bike Make",
-               @"Second Bike Make",];
+    _StolenMake = @[@"First Stolen Make",
+              @"Second Stolen Make",];
     
-    _Model = @[@"First Bike Model",
-               @"Second Bike Model",];
+    _StolenModel = @[@"First Stolen Model",
+               @"Second Stolen Model",];
     
-    _Year = @[@"First Bike Year",
-              @"Second Bike Year",];
+    _StolenYear = @[@"First Stolen Year",
+              @"Second Stolen Year",];
     
-    _Images = @[@"2013KawasakiNinja.png",
+    _StolenImages = @[@"2013KawasakiNinja.png",
                 @"2014SuzukiHayabusa.png"];
-    
 }
 
 - (void)didReceiveMemoryWarning
@@ -68,38 +66,25 @@
 {
 //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return _Make.count;
+    return _StolenMake.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"garageCell";
-    garageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"StolenCell";
+    StolenCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     
     int row = [indexPath row];
     
-    cell.MakeLabel.text = _Make[row];
-    cell.ModelLabel.text = _Model[row];
-    cell.YearLabel.text = _Year[row];
-    cell.ThumbImage.image = [UIImage imageNamed:_Images[row]];
+    cell.StolenMakeLabel.text = _StolenMake[row];
+    cell.StolenModelLabel.text = _StolenModel[row];
+    cell.StolenYearLabel.text = _StolenYear[row];
+    cell.StolenThumbImage.image = [UIImage imageNamed:_StolenImages[row]];
     
     return cell;
 }
-
-/*
--(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    if([[segue identifier] isEqualToString:@"ShowDetails"]){
-        detailViewController *detailviewcontroller = [segue destinationViewController];
-        
-        NSIndexPath *myIndexPath = [self.tableView indexPathForSelectedRow];
-        
-        int row = [myIndexPath row];
-        detailviewcontroller.DetailModal = @[_Make[row],_Model[row],_Year[row],_Images[row]];
-    }
-}*/
 
 /*
 // Override to support conditional editing of the table view.

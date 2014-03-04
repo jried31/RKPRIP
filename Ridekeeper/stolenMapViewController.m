@@ -1,20 +1,20 @@
 //
-//  garageMapViewController.m
+//  stolenMapViewController.m
 //  Ridekeeper
 //
-//  Created by CLICC User on 3/3/14.
+//  Created by CLICC User on 3/4/14.
 //  Copyright (c) 2014 Dennis Grijalva. All rights reserved.
 //
 
-#import "garageMapViewController.h"
+#import "stolenMapViewController.h"
 
-@interface garageMapViewController ()
+@interface stolenMapViewController ()
 
 @end
 
-@implementation garageMapViewController
+@implementation stolenMapViewController
 
-@synthesize mapview;
+@synthesize stolenmapview;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,7 +35,7 @@
     region.center.longitude = -118.4441;
     region.span.longitudeDelta = 0.01f;
     region.span.latitudeDelta = 0.01f;
-    [mapview setRegion:region animated:YES];
+    [stolenmapview setRegion:region animated:YES];
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,13 +48,13 @@
     
     switch (((UISegmentedControl *) sender).selectedSegmentIndex) {
         case 0:
-            mapview.mapType = MKMapTypeStandard;
+            stolenmapview.mapType = MKMapTypeStandard;
             break;
         case 1:
-            mapview.mapType = MKMapTypeSatellite;
+            stolenmapview.mapType = MKMapTypeSatellite;
             break;
         case 2:
-            mapview.mapType = MKMapTypeHybrid;
+            stolenmapview.mapType = MKMapTypeHybrid;
             break;
         default:
             break;
@@ -62,7 +62,7 @@
 }
 
 -(IBAction)GetLocation:(id)sender{
-    mapview.showsUserLocation = YES;
+    stolenmapview.showsUserLocation = YES;
 }
 
 @end
