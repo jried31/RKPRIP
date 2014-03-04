@@ -16,6 +16,11 @@
     [Parse setApplicationId:@"vFlWQUNgeSfFOGieVsP4kPTRDaDTsUQEFzDbhqg6"
                   clientKey:@"AcMUqQEEsIpDliXUVzVz8eWFPwrvcGwnMCYjiTqR"];
     
+    //QuickBlox Chat
+    [QBSettings setApplicationID:7634];
+    [QBSettings setAuthorizationKey:@"CjPw7ZnTz9A-Yhz"];
+    [QBSettings setAuthorizationSecret:@"sujxcxNGRLZhsJH"];
+    
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
      UIRemoteNotificationTypeAlert|
      UIRemoteNotificationTypeSound];

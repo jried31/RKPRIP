@@ -32,9 +32,28 @@
 		611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4B18B0985B00A0DD09 /* SystemConfiguration.framework */; };
 		611D9E5618B09A0600A0DD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611D9E5518B09A0600A0DD09 /* Main.storyboard */; };
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
+		DD0EC0F718C660D000C510DD /* LocalStorageService.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0EC0F618C660D000C510DD /* LocalStorageService.m */; };
+		DD0EC0FA18C666C000C510DD /* ChatService.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0EC0F918C666C000C510DD /* ChatService.m */; };
+		DD0EC0FD18C6677300C510DD /* CharactersEscapeService.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0EC0FC18C6677300C510DD /* CharactersEscapeService.m */; };
+		DD0EC0FF18C66DB600C510DD /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD0EC0FE18C66DB600C510DD /* libc++.dylib */; };
 		DD1C950318B5F60F0098B2FC /* CustomLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */; };
+		DD531B4518C594D200C2BF49 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD531B4418C594D200C2BF49 /* UsersViewController.m */; };
+		DD531B4818C597A100C2BF49 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD531B4718C597A100C2BF49 /* ChatViewController.m */; };
+		DD531B4B18C5990500C2BF49 /* NMPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD531B4A18C5990500C2BF49 /* NMPaginator.m */; };
+		DD531B4E18C59ABD00C2BF49 /* UsersPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD531B4D18C59ABD00C2BF49 /* UsersPaginator.m */; };
+		DD531B5118C5D07A00C2BF49 /* ChatMessageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DD531B5018C5D07A00C2BF49 /* ChatMessageTableViewCell.m */; };
+		DDA6E9EB18C2F37B005934CE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		DDA6E9F418C33356005934CE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9F318C33356005934CE /* CoreLocation.framework */; };
+		DDA6E9F618C33362005934CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9F518C33362005934CE /* CoreData.framework */; };
+		DDA6E9F818C33378005934CE /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9F718C33378005934CE /* CoreMedia.framework */; };
+		DDA6E9FA18C33395005934CE /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9F918C33395005934CE /* Accelerate.framework */; };
+		DDA6E9FC18C333A3005934CE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9FB18C333A3005934CE /* CoreVideo.framework */; };
+		DDA6E9FE18C333B0005934CE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9FD18C333B0005934CE /* AVFoundation.framework */; };
+		DDA6EA0018C333DA005934CE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6E9FF18C333DA005934CE /* libz.dylib */; };
+		DDA6EA0218C333EC005934CE /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6EA0118C333EC005934CE /* libresolv.dylib */; };
+		DDA6EA0418C3340B005934CE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6EA0318C3340B005934CE /* libxml2.dylib */; };
+		DDA6EA0718C33941005934CE /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDA6EA0618C33941005934CE /* Quickblox.framework */; };
 		DDD4294618B842D20097CF59 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD4294518B842D20097CF59 /* SignUpViewController.m */; };
-		FF02BD9F18B80CA60019D355 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,8 +100,35 @@
 		611D9E5518B09A0600A0DD09 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		611D9E5D18B0A50600A0DD09 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		611D9E5E18B0A50600A0DD09 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DD0EC0F518C660D000C510DD /* LocalStorageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalStorageService.h; path = Ridekeeper/LocalStorageService.h; sourceTree = SOURCE_ROOT; };
+		DD0EC0F618C660D000C510DD /* LocalStorageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalStorageService.m; path = Ridekeeper/LocalStorageService.m; sourceTree = SOURCE_ROOT; };
+		DD0EC0F818C666C000C510DD /* ChatService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatService.h; path = Ridekeeper/ChatService.h; sourceTree = SOURCE_ROOT; };
+		DD0EC0F918C666C000C510DD /* ChatService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatService.m; path = Ridekeeper/ChatService.m; sourceTree = SOURCE_ROOT; };
+		DD0EC0FB18C6677300C510DD /* CharactersEscapeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CharactersEscapeService.h; path = Ridekeeper/CharactersEscapeService.h; sourceTree = SOURCE_ROOT; };
+		DD0EC0FC18C6677300C510DD /* CharactersEscapeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CharactersEscapeService.m; path = Ridekeeper/CharactersEscapeService.m; sourceTree = SOURCE_ROOT; };
+		DD0EC0FE18C66DB600C510DD /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		DD1C950118B5F60F0098B2FC /* CustomLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomLogInViewController.h; path = Ridekeeper/CustomLogInViewController.h; sourceTree = SOURCE_ROOT; };
 		DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomLogInViewController.m; path = Ridekeeper/CustomLogInViewController.m; sourceTree = SOURCE_ROOT; };
+		DD531B4318C594D200C2BF49 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersViewController.h; path = Ridekeeper/UsersViewController.h; sourceTree = SOURCE_ROOT; };
+		DD531B4418C594D200C2BF49 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersViewController.m; path = Ridekeeper/UsersViewController.m; sourceTree = SOURCE_ROOT; };
+		DD531B4618C597A100C2BF49 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatViewController.h; path = Ridekeeper/ChatViewController.h; sourceTree = SOURCE_ROOT; };
+		DD531B4718C597A100C2BF49 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatViewController.m; path = Ridekeeper/ChatViewController.m; sourceTree = SOURCE_ROOT; };
+		DD531B4918C5990500C2BF49 /* NMPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NMPaginator.h; path = Ridekeeper/NMPaginator.h; sourceTree = SOURCE_ROOT; };
+		DD531B4A18C5990500C2BF49 /* NMPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NMPaginator.m; path = Ridekeeper/NMPaginator.m; sourceTree = SOURCE_ROOT; };
+		DD531B4C18C59ABD00C2BF49 /* UsersPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UsersPaginator.h; path = Ridekeeper/UsersPaginator.h; sourceTree = SOURCE_ROOT; };
+		DD531B4D18C59ABD00C2BF49 /* UsersPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UsersPaginator.m; path = Ridekeeper/UsersPaginator.m; sourceTree = SOURCE_ROOT; };
+		DD531B4F18C5D07A00C2BF49 /* ChatMessageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChatMessageTableViewCell.h; path = Ridekeeper/ChatMessageTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		DD531B5018C5D07A00C2BF49 /* ChatMessageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChatMessageTableViewCell.m; path = Ridekeeper/ChatMessageTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		DDA6E9F318C33356005934CE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DDA6E9F518C33362005934CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DDA6E9F718C33378005934CE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DDA6E9F918C33395005934CE /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DDA6E9FB18C333A3005934CE /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DDA6E9FD18C333B0005934CE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DDA6E9FF18C333DA005934CE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DDA6EA0118C333EC005934CE /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
+		DDA6EA0318C3340B005934CE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DDA6EA0618C33941005934CE /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		DDD4294418B842D20097CF59 /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignUpViewController.h; path = ../SignUpViewController.h; sourceTree = "<group>"; };
 		DDD4294518B842D20097CF59 /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignUpViewController.m; path = ../SignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,17 +138,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0EC0FF18C66DB600C510DD /* libc++.dylib in Frameworks */,
+				DDA6EA0418C3340B005934CE /* libxml2.dylib in Frameworks */,
+				DDA6EA0218C333EC005934CE /* libresolv.dylib in Frameworks */,
+				DDA6EA0018C333DA005934CE /* libz.dylib in Frameworks */,
+				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
+				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
+				DDA6E9FE18C333B0005934CE /* AVFoundation.framework in Frameworks */,
+				DDA6E9FC18C333A3005934CE /* CoreVideo.framework in Frameworks */,
+				DDA6E9FA18C33395005934CE /* Accelerate.framework in Frameworks */,
+				DDA6E9F818C33378005934CE /* CoreMedia.framework in Frameworks */,
 				611D9E4C18B0985B00A0DD09 /* AudioToolbox.framework in Frameworks */,
+				DDA6E9F618C33362005934CE /* CoreData.framework in Frameworks */,
+				DDA6E9F418C33356005934CE /* CoreLocation.framework in Frameworks */,
+				611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */,
+				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
+				DDA6EA0718C33941005934CE /* Quickblox.framework in Frameworks */,
+				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
 				611D9E4D18B0985B00A0DD09 /* CFNetwork.framework in Frameworks */,
 				611D9E4E18B0985B00A0DD09 /* libsqlite3.dylib in Frameworks */,
 				611D9E4F18B0985B00A0DD09 /* libz.1.1.3.dylib in Frameworks */,
-				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
-				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
-				FF02BD9F18B80CA60019D355 /* Parse.framework in Frameworks */,
-				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
+				DDA6E9EB18C2F37B005934CE /* Parse.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
-				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
-				611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */,
 				611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */,
 				611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */,
 			);
@@ -143,6 +200,17 @@
 		611D9E0818B0979500A0DD09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DD0EC0FE18C66DB600C510DD /* libc++.dylib */,
+				DDA6EA0618C33941005934CE /* Quickblox.framework */,
+				DDA6EA0318C3340B005934CE /* libxml2.dylib */,
+				DDA6EA0118C333EC005934CE /* libresolv.dylib */,
+				DDA6E9FF18C333DA005934CE /* libz.dylib */,
+				DDA6E9FD18C333B0005934CE /* AVFoundation.framework */,
+				DDA6E9FB18C333A3005934CE /* CoreVideo.framework */,
+				DDA6E9F918C33395005934CE /* Accelerate.framework */,
+				DDA6E9F718C33378005934CE /* CoreMedia.framework */,
+				DDA6E9F518C33362005934CE /* CoreData.framework */,
+				DDA6E9F318C33356005934CE /* CoreLocation.framework */,
 				611D9E4318B0985B00A0DD09 /* AudioToolbox.framework */,
 				611D9E4418B0985B00A0DD09 /* CFNetwork.framework */,
 				611D9E4518B0985B00A0DD09 /* libsqlite3.dylib */,
@@ -173,6 +241,22 @@
 				DDD4294418B842D20097CF59 /* SignUpViewController.h */,
 				DDD4294518B842D20097CF59 /* SignUpViewController.m */,
 				611D9E5518B09A0600A0DD09 /* Main.storyboard */,
+				DD531B4618C597A100C2BF49 /* ChatViewController.h */,
+				DD531B4718C597A100C2BF49 /* ChatViewController.m */,
+				DD0EC0F818C666C000C510DD /* ChatService.h */,
+				DD0EC0F918C666C000C510DD /* ChatService.m */,
+				DD0EC0FB18C6677300C510DD /* CharactersEscapeService.h */,
+				DD0EC0FC18C6677300C510DD /* CharactersEscapeService.m */,
+				DD0EC0F518C660D000C510DD /* LocalStorageService.h */,
+				DD0EC0F618C660D000C510DD /* LocalStorageService.m */,
+				DD531B4F18C5D07A00C2BF49 /* ChatMessageTableViewCell.h */,
+				DD531B5018C5D07A00C2BF49 /* ChatMessageTableViewCell.m */,
+				DD531B4318C594D200C2BF49 /* UsersViewController.h */,
+				DD531B4418C594D200C2BF49 /* UsersViewController.m */,
+				DD531B4918C5990500C2BF49 /* NMPaginator.h */,
+				DD531B4A18C5990500C2BF49 /* NMPaginator.m */,
+				DD531B4C18C59ABD00C2BF49 /* UsersPaginator.h */,
+				DD531B4D18C59ABD00C2BF49 /* UsersPaginator.m */,
 				DD1C950118B5F60F0098B2FC /* CustomLogInViewController.h */,
 				DD1C950218B5F60F0098B2FC /* CustomLogInViewController.m */,
 				611D9E5D18B0A50600A0DD09 /* LoginViewController.h */,
@@ -309,13 +393,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0EC0F718C660D000C510DD /* LocalStorageService.m in Sources */,
+				DD0EC0FA18C666C000C510DD /* ChatService.m in Sources */,
 				611D9E2318B0979500A0DD09 /* SecondViewController.m in Sources */,
+				DD531B4518C594D200C2BF49 /* UsersViewController.m in Sources */,
+				DD531B4E18C59ABD00C2BF49 /* UsersPaginator.m in Sources */,
 				DD1C950318B5F60F0098B2FC /* CustomLogInViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
 				611D9E2018B0979500A0DD09 /* FirstViewController.m in Sources */,
 				DDD4294618B842D20097CF59 /* SignUpViewController.m in Sources */,
+				DD0EC0FD18C6677300C510DD /* CharactersEscapeService.m in Sources */,
 				611D9E1618B0979500A0DD09 /* main.m in Sources */,
+				DD531B5118C5D07A00C2BF49 /* ChatMessageTableViewCell.m in Sources */,
+				DD531B4B18C5990500C2BF49 /* NMPaginator.m in Sources */,
+				DD531B4818C597A100C2BF49 /* ChatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +536,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
@@ -464,6 +560,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
 				INFOPLIST_FILE = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lxml2",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename;
 				WRAPPER_EXTENSION = app;
 			};
