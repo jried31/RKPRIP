@@ -16,4 +16,6 @@
 
 -(IBAction)SetMap:(id)sender;
 
+-(IBAction)GetLocation:(id)sender;
+
 @end
