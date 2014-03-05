@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+
 @interface garageMapViewController : UIViewController {
     MKMapView *mapview;
 }
@@ -17,5 +18,7 @@
 -(IBAction)SetMap:(id)sender;
 
 -(IBAction)GetLocation:(id)sender;
+
+-(IBAction)Direction:(id)sender;
 
 @end

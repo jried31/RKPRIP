@@ -7,6 +7,7 @@
 //
 
 #import "garageMapViewController.h"
+#import "VehicleMapPin.h"
 
 @interface garageMapViewController ()
 
@@ -36,6 +37,12 @@
     region.span.longitudeDelta = 0.01f;
     region.span.latitudeDelta = 0.01f;
     [mapview setRegion:region animated:YES];
+    
+    VehicleMapPin *ann = [[VehicleMapPin alloc] init];
+    ann.title = @"Your Bike";
+    ann.subtitle = @"UCLA";
+    ann.coordinate = region.center;
+    [mapview addAnnotation:ann];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,6 +70,11 @@
 
 -(IBAction)GetLocation:(id)sender{
     mapview.showsUserLocation = YES;
+}
+
+-(IBAction)Direction:(id)sender{
+    NSString *urlString = @"http://maps.apple.com/maps?daddr=34.0722,-118.4441";
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
 }
 
 @end

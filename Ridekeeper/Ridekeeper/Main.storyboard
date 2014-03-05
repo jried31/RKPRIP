@@ -123,7 +123,21 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="eBH-x1-Hxo"/>
+                    <navigationItem key="navigationItem" id="eBH-x1-Hxo">
+                        <barButtonItem key="rightBarButtonItem" id="937-2t-DUN">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8qm-h3-bUO">
+                                <rect key="frame" x="233" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Directions">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Direction:" destination="xGY-SH-zoJ" eventType="touchUpInside" id="TjO-hv-AE6"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapview" destination="1cz-AL-5Pw" id="aR5-Oe-D9g"/>
                     </connections>
@@ -141,11 +155,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StolenCell" rowHeight="90" id="rPm-X3-xdV" customClass="StolenCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StolenCell" rowHeight="90" id="rPm-X3-xdV" customClass="StolenCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rPm-X3-xdV" id="gQI-HF-oiM">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="287" height="89"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hNH-Q0-QnG">
@@ -178,7 +192,7 @@
                                     <outlet property="StolenModelLabel" destination="qlh-8H-V1n" id="ntR-gH-zii"/>
                                     <outlet property="StolenThumbImage" destination="hNH-Q0-QnG" id="VrR-kF-kHW"/>
                                     <outlet property="StolenYearLabel" destination="m1m-0D-sNS" id="9l8-2Z-bdA"/>
-                                    <segue destination="fyh-Ku-JYF" kind="push" id="ilV-bG-TEG"/>
+                                    <segue destination="fyh-Ku-JYF" kind="push" id="DVp-n3-J7o"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -202,6 +216,7 @@
         <!--Stolen Map View Controller-->
         <scene sceneID="8JX-Pf-ctC">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Qv-U0-q8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="fyh-Ku-JYF" customClass="stolenMapViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bS6-uE-dDQ"/>
@@ -211,13 +226,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nwZ-ex-oGr">
-                                <rect key="frame" x="0.0" y="472" width="320" height="44"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="lml-cY-yxi">
+                                <rect key="frame" x="0.0" y="63" width="320" height="410"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i32-cr-Hbx">
+                                <rect key="frame" x="0.0" y="473" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem style="plain" id="5ki-c0-CmW">
-                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="mrc-bn-XU3">
-                                            <rect key="frame" x="16" y="7" width="199" height="31"/>
+                                    <barButtonItem style="plain" id="nyz-ig-29G">
+                                        <segmentedControl key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" id="O2O-E1-AaN">
+                                            <rect key="frame" x="16" y="6" width="199" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <segments>
                                                 <segment title="Standard"/>
@@ -225,49 +244,58 @@
                                                 <segment title="Hybrid"/>
                                             </segments>
                                             <connections>
-                                                <action selector="SetMap:" destination="fyh-Ku-JYF" eventType="valueChanged" id="gAJ-oh-waj"/>
-                                                <action selector="SetMap:" destination="xGY-SH-zoJ" eventType="valueChanged" id="lj7-JI-ZDu"/>
+                                                <action selector="SetMap:" destination="fyh-Ku-JYF" eventType="valueChanged" id="zwF-sj-IeE"/>
                                             </connections>
                                         </segmentedControl>
                                     </barButtonItem>
-                                    <barButtonItem id="ktq-Ap-FxN">
-                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gqM-ec-Qq4">
+                                    <barButtonItem id="o71-lA-Dmk">
+                                        <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uIm-Rt-RNU">
                                             <rect key="frame" x="225" y="6" width="73" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <state key="normal" title="Location">
                                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                             </state>
                                             <connections>
-                                                <action selector="GetLocation:" destination="fyh-Ku-JYF" eventType="touchUpInside" id="q8h-xJ-7Fk"/>
+                                                <action selector="GetLocation:" destination="fyh-Ku-JYF" eventType="touchUpInside" id="kYO-sD-y03"/>
                                             </connections>
                                         </button>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="CXm-oq-dYK"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="NCk-8Z-SlA"/>
                                 </items>
                             </toolbar>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZNv-TE-aLk">
-                                <rect key="frame" x="0.0" y="64" width="320" height="408"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="rv1-7c-gHP" firstAttribute="top" secondItem="nwZ-ex-oGr" secondAttribute="bottom" constant="32" id="7Uo-i3-yfK"/>
-                            <constraint firstItem="ZNv-TE-aLk" firstAttribute="top" secondItem="4h9-6w-JhW" secondAttribute="top" id="Jzv-GN-yoZ"/>
-                            <constraint firstItem="nwZ-ex-oGr" firstAttribute="top" secondItem="ZNv-TE-aLk" secondAttribute="bottom" id="KZ1-uT-gSB"/>
-                            <constraint firstAttribute="trailing" secondItem="ZNv-TE-aLk" secondAttribute="trailing" id="bNt-qx-JTr"/>
-                            <constraint firstItem="nwZ-ex-oGr" firstAttribute="leading" secondItem="ZNv-TE-aLk" secondAttribute="leading" id="lo1-c0-teP"/>
-                            <constraint firstItem="nwZ-ex-oGr" firstAttribute="leading" secondItem="4h9-6w-JhW" secondAttribute="leading" id="pUt-Yj-HDj"/>
-                            <constraint firstItem="ZNv-TE-aLk" firstAttribute="trailing" secondItem="nwZ-ex-oGr" secondAttribute="trailing" id="pmC-Pi-Ud9"/>
+                            <constraint firstItem="i32-cr-Hbx" firstAttribute="leading" secondItem="lml-cY-yxi" secondAttribute="leading" id="OOk-RJ-79G"/>
+                            <constraint firstItem="lml-cY-yxi" firstAttribute="leading" secondItem="4h9-6w-JhW" secondAttribute="leading" id="e0P-dP-ZlK"/>
+                            <constraint firstItem="i32-cr-Hbx" firstAttribute="trailing" secondItem="lml-cY-yxi" secondAttribute="trailing" id="hUs-0x-Aix"/>
+                            <constraint firstItem="i32-cr-Hbx" firstAttribute="top" secondItem="lml-cY-yxi" secondAttribute="bottom" id="jz4-rm-ngM"/>
+                            <constraint firstItem="rv1-7c-gHP" firstAttribute="top" secondItem="i32-cr-Hbx" secondAttribute="bottom" constant="2" id="pkh-p2-Ryi"/>
+                            <constraint firstItem="lml-cY-yxi" firstAttribute="top" secondItem="4h9-6w-JhW" secondAttribute="top" constant="63" id="siK-bU-M3M"/>
+                            <constraint firstAttribute="trailing" secondItem="i32-cr-Hbx" secondAttribute="trailing" id="tI7-wx-b8f"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Wnp-BB-szW">
+                        <barButtonItem key="rightBarButtonItem" id="Eup-n2-R2g">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Nsc-VJ-6qA">
+                                <rect key="frame" x="233" y="5" width="71" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="Directions">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Direction:" destination="fyh-Ku-JYF" eventType="touchUpInside" id="epe-EQ-lmT"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="stolenmapview" destination="ZNv-TE-aLk" id="jS1-Fy-6W4"/>
+                        <outlet property="stolenmapview" destination="lml-cY-yxi" id="3Ly-tw-7pB"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0Qv-U0-q8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="466" y="83"/>
+            <point key="canvasLocation" x="467" y="84"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="rIv-Rt-wIx">
@@ -770,6 +798,6 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="NqF-rm-Jvz"/>
+        <segue reference="7os-Au-d08"/>
     </inferredMetricsTieBreakers>
 </document>

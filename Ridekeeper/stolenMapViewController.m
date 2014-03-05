@@ -7,6 +7,7 @@
 //
 
 #import "stolenMapViewController.h"
+#import "StolenMapPin.h"
 
 @interface stolenMapViewController ()
 
@@ -31,11 +32,17 @@
 	// Do any additional setup after loading the view.
     
     MKCoordinateRegion region = { {0.0, 0.0}, {0.0, 0.0}};
-    region.center.latitude = 34.0722;   //temp UCLA map view
-    region.center.longitude = -118.4441;
+    region.center.latitude = 34.0205;   //temp USC map view
+    region.center.longitude = -118.2856;
     region.span.longitudeDelta = 0.01f;
     region.span.latitudeDelta = 0.01f;
     [stolenmapview setRegion:region animated:YES];
+    
+    StolenMapPin *anno = [[StolenMapPin alloc] init];
+    anno.stolentitle = @"Your Stolen Bike";
+    anno.stolensubtitle = @"USC";
+    anno.stolencoordinate = region.center;
+    [stolenmapview addAnnotation:anno];
 }
 
 - (void)didReceiveMemoryWarning
@@ -63,6 +70,11 @@
 
 -(IBAction)GetLocation:(id)sender{
     stolenmapview.showsUserLocation = YES;
+}
+
+-(IBAction)Direction:(id)sender{
+    NSString *urlString = @"http://maps.apple.com/maps?daddr=34.0205,-118.2856";
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
 }
 
 @end
