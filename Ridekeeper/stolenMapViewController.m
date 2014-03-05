@@ -7,7 +7,7 @@
 //
 
 #import "stolenMapViewController.h"
-#import "StolenMapPin.h"
+//#import "StolenMapPin.h"
 
 @interface stolenMapViewController ()
 
@@ -38,11 +38,11 @@
     region.span.latitudeDelta = 0.01f;
     [stolenmapview setRegion:region animated:YES];
     
-    StolenMapPin *anno = [[StolenMapPin alloc] init];
+    /*StolenMapPin *anno = [[StolenMapPin alloc] init];
     anno.stolentitle = @"Your Stolen Bike";
     anno.stolensubtitle = @"USC";
     anno.stolencoordinate = region.center;
-    [stolenmapview addAnnotation:anno];
+    [stolenmapview addAnnotation:anno];*/
 }
 
 - (void)didReceiveMemoryWarning
