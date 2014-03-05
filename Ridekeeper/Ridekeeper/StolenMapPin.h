@@ -1,3 +1,4 @@
+/*
 //
 //  StolenMapPin.h
 //  Ridekeeper
@@ -20,3 +21,4 @@
 @property (nonatomic,copy) NSString *stolensubtitle;
 
 @end
+*/
