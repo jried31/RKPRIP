@@ -1,3 +1,4 @@
+/*
 //
 //  StolenMapPin.m
 //  Ridekeeper
@@ -13,3 +14,4 @@
 @synthesize stolencoordinate,stolentitle,stolensubtitle;
 
 @end
+*/
