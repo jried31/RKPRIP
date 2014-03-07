@@ -43,7 +43,9 @@
 		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
-		DD1D8E2718C95BA100F7D4C0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
+		DD10C16318C9AE99001F0ABA /* customloginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10C16218C9AE99001F0ABA /* customloginViewController.m */; };
+		DD10C16618C9AEAF001F0ABA /* signupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10C16518C9AEAF001F0ABA /* signupViewController.m */; };
+		DD10C16718C9B2D2001F0ABA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 		FF2629E418C6610F004EE2A8 /* StolenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2629E318C6610F004EE2A8 /* StolenViewController.m */; };
 		FF2629E718C66339004EE2A8 /* StolenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2629E618C66339004EE2A8 /* StolenCell.m */; };
 		FF2629EC18C66F92004EE2A8 /* garageMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2629EB18C66F92004EE2A8 /* garageMapViewController.m */; };
@@ -116,6 +118,10 @@
 		619D263618B5EF0800CEBBA0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; };
 		9844E26718BCB56D00FC5D6B /* settingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = settingsViewController.h; path = ../settingsViewController.h; sourceTree = "<group>"; };
 		9844E26818BCB56D00FC5D6B /* settingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = settingsViewController.m; path = ../settingsViewController.m; sourceTree = "<group>"; };
+		DD10C16118C9AE99001F0ABA /* customloginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = customloginViewController.h; path = Ridekeeper/customloginViewController.h; sourceTree = SOURCE_ROOT; };
+		DD10C16218C9AE99001F0ABA /* customloginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = customloginViewController.m; path = Ridekeeper/customloginViewController.m; sourceTree = SOURCE_ROOT; };
+		DD10C16418C9AEAF001F0ABA /* signupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = signupViewController.h; path = Ridekeeper/signupViewController.h; sourceTree = SOURCE_ROOT; };
+		DD10C16518C9AEAF001F0ABA /* signupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = signupViewController.m; path = Ridekeeper/signupViewController.m; sourceTree = SOURCE_ROOT; };
 		FF2629E218C6610F004EE2A8 /* StolenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StolenViewController.h; path = ../StolenViewController.h; sourceTree = "<group>"; };
 		FF2629E318C6610F004EE2A8 /* StolenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StolenViewController.m; path = ../StolenViewController.m; sourceTree = "<group>"; };
 		FF2629E518C66339004EE2A8 /* StolenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StolenCell.h; path = ../StolenCell.h; sourceTree = "<group>"; };
@@ -152,7 +158,7 @@
 				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
 				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
-				DD1D8E2718C95BA100F7D4C0 /* Parse.framework in Frameworks */,
+				DD10C16718C9B2D2001F0ABA /* Parse.framework in Frameworks */,
 				611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */,
 				611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */,
 				611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */,
@@ -249,6 +255,10 @@
 				9844E26718BCB56D00FC5D6B /* settingsViewController.h */,
 				9844E26818BCB56D00FC5D6B /* settingsViewController.m */,
 				619D263118B5DCC600CEBBA0 /* Main.storyboard */,
+				DD10C16118C9AE99001F0ABA /* customloginViewController.h */,
+				DD10C16218C9AE99001F0ABA /* customloginViewController.m */,
+				DD10C16418C9AEAF001F0ABA /* signupViewController.h */,
+				DD10C16518C9AEAF001F0ABA /* signupViewController.m */,
 				611D9E2418B0979500A0DD09 /* Images.xcassets */,
 				611D9E1018B0979500A0DD09 /* Supporting Files */,
 			);
@@ -414,10 +424,12 @@
 				619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */,
 				611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */,
 				61378C6218BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m in Sources */,
+				DD10C16618C9AEAF001F0ABA /* signupViewController.m in Sources */,
 				FF2629EF18C672C0004EE2A8 /* stolenMapViewController.m in Sources */,
 				FF2629E718C66339004EE2A8 /* StolenCell.m in Sources */,
 				9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */,
 				611D9E1A18B0979500A0DD09 /* AppDelegate.m in Sources */,
+				DD10C16318C9AE99001F0ABA /* customloginViewController.m in Sources */,
 				FF2629E418C6610F004EE2A8 /* StolenViewController.m in Sources */,
 				FF2629EC18C66F92004EE2A8 /* garageMapViewController.m in Sources */,
 				618C364218BC499000648CE7 /* ProfileViewController.m in Sources */,
