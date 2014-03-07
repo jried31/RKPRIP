@@ -8,11 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface garageViewController : UITableViewController
+@interface garageViewController : UITableViewController{
+    /*NSArray *Make;
+    NSArray *Model;
+    NSArray *Year;
+    NSArray *Images;*/
+    NSArray *obj;
+    
+}
 
-@property (nonatomic,strong) NSArray *Make;
-@property (nonatomic,strong) NSArray *Model;
-@property (nonatomic,strong) NSArray *Year;
-@property (nonatomic,strong) NSArray *Images;
+@property (nonatomic,strong) NSString *Make;
+@property (nonatomic,strong) NSString *Model;
+@property  int *Year;
+@property (nonatomic,strong) NSMutableArray *Images;
+@property (strong, nonatomic) IBOutlet UITableView *vehicletable;
 
 @end

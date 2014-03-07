@@ -37,13 +37,13 @@
 		611D9E5F18B0A50600A0DD09 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611D9E5E18B0A50600A0DD09 /* LoginViewController.m */; };
 		61378C5F18BEFFF400BE7CC1 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 61378C5E18BEFFF400BE7CC1 /* button.png */; };
 		61378C6218BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61378C6118BF0D8700BE7CC1 /* BikeOfTheMonthViewController.m */; };
-		613B824318BD3C4B00839E1A /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 		618C364218BC499000648CE7 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 618C364118BC499000648CE7 /* ProfileViewController.m */; };
 		618C364418BC777E00648CE7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 618C364318BC777E00648CE7 /* Settings.png */; };
 		619D262C18B5A8F900CEBBA0 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 619D262B18B5A8F900CEBBA0 /* logo.png */; };
 		619D263218B5DCC600CEBBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619D263118B5DCC600CEBBA0 /* Main.storyboard */; };
 		619D263718B5EF0800CEBBA0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 619D263618B5EF0800CEBBA0 /* MainViewController.m */; };
 		9844E26918BCB56D00FC5D6B /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9844E26818BCB56D00FC5D6B /* settingsViewController.m */; };
+		DD1D8E2718C95BA100F7D4C0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611D9E4118B097A300A0DD09 /* Parse.framework */; };
 		FF2629E418C6610F004EE2A8 /* StolenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2629E318C6610F004EE2A8 /* StolenViewController.m */; };
 		FF2629E718C66339004EE2A8 /* StolenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2629E618C66339004EE2A8 /* StolenCell.m */; };
 		FF2629EC18C66F92004EE2A8 /* garageMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2629EB18C66F92004EE2A8 /* garageMapViewController.m */; };
@@ -149,10 +149,10 @@
 				FF9B01BB18C6AE2A009CF75A /* MapKit.framework in Frameworks */,
 				611D9E5018B0985B00A0DD09 /* MobileCoreServices.framework in Frameworks */,
 				611D9E5118B0985B00A0DD09 /* QuartzCore.framework in Frameworks */,
-				613B824318BD3C4B00839E1A /* Parse.framework in Frameworks */,
 				611D9E5218B0985B00A0DD09 /* Security.framework in Frameworks */,
 				611D9E5318B0985B00A0DD09 /* StoreKit.framework in Frameworks */,
 				611D9E5418B0985B00A0DD09 /* SystemConfiguration.framework in Frameworks */,
+				DD1D8E2718C95BA100F7D4C0 /* Parse.framework in Frameworks */,
 				611D9E0C18B0979500A0DD09 /* CoreGraphics.framework in Frameworks */,
 				611D9E0A18B0979500A0DD09 /* Foundation.framework in Frameworks */,
 				611D9E0E18B0979500A0DD09 /* UIKit.framework in Frameworks */,
@@ -550,6 +550,7 @@
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
 					/Users/rosa/Desktop/Developer/RKPRIP/Ridekeeper,
 					/Users/dennisgrijalva/Documents/CSM117/Riderkeeper/RKPRIP/Ridekeeper,
+					/Users/mmohpasimayazrahman/Desktop/CSM117/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";
@@ -573,6 +574,7 @@
 					/Volumes/SAVE2HERE/RKPRIP/Ridekeeper,
 					/Users/rosa/Desktop/Developer/RKPRIP/Ridekeeper,
 					/Users/dennisgrijalva/Documents/CSM117/Riderkeeper/RKPRIP/Ridekeeper,
+					/Users/mmohpasimayazrahman/Desktop/CSM117/RKPRIP/Ridekeeper,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RideKeeper/RideKeeper.temp_caseinsensitive_rename.temp_caseinsensitive_rename-Prefix.pch";

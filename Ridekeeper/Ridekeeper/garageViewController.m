@@ -7,6 +7,7 @@
 //
 
 #import "garageViewController.h"
+#import "Parse/Parse.h"
 #import "garageCell.h"
 
 @interface garageViewController ()
@@ -14,6 +15,8 @@
 @end
 
 @implementation garageViewController
+
+@synthesize vehicletable;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -35,7 +38,8 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     //data grabbed from parse database
-    _Make = @[@"First Bike Make",
+    [self performSelector:@selector(retrieve)];
+    /*_Make = @[@"First Bike Make",
                @"Second Bike Make",];
     
     _Model = @[@"First Bike Model",
@@ -45,7 +49,19 @@
               @"Second Bike Year",];
     
     _Images = @[@"2013KawasakiNinja.png",
-                @"2014SuzukiHayabusa.png"];
+                @"2014SuzukiHayabusa.png"];*/
+    
+}
+-(void)	retrieve {
+    PFQuery *retrievevehicle = [PFQuery queryWithClassName:@"Vehicle"];
+    [retrievevehicle whereKey:@"ownerId" equalTo:[PFUser currentUser].objectId];
+    [retrievevehicle findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
+        if(!error){
+            obj = [[NSArray  alloc]initWithArray:objects];
+            
+        }
+        [vehicletable reloadData];
+    }];
     
 }
 
@@ -68,13 +84,13 @@
 {
 //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return _Make.count;
+    return obj.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"garageCell";
-    garageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    /*garageCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     
@@ -83,8 +99,14 @@
     cell.MakeLabel.text = _Make[row];
     cell.ModelLabel.text = _Model[row];
     cell.YearLabel.text = _Year[row];
-    cell.ThumbImage.image = [UIImage imageNamed:_Images[row]];
+    cell.ThumbImage.image = [UIImage imageNamed:_Images[row]];*/
+    garageCell *cell=[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    PFObject *tempobject=[obj objectAtIndex:indexPath.row];
     
+    cell.MakeLabel.text = [tempobject objectForKey:@"make"];
+    cell.ModelLabel.text =[tempobject objectForKey:@"model"];
+    cell.YearLabel.text = [tempobject objectForKey:@"year"];
+    cell.ThumbImage.image = [UIImage imageNamed:[tempobject objectForKey:@"photo"]];
     return cell;
 }
 

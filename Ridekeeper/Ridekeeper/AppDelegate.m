@@ -13,8 +13,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [Parse setApplicationId:@"vFlWQUNgeSfFOGieVsP4kPTRDaDTsUQEFzDbhqg6"
-                  clientKey:@"AcMUqQEEsIpDliXUVzVz8eWFPwrvcGwnMCYjiTqR"];
+   /* [Parse setApplicationId:@"vFlWQUNgeSfFOGieVsP4kPTRDaDTsUQEFzDbhqg6"
+                  clientKey:@"AcMUqQEEsIpDliXUVzVz8eWFPwrvcGwnMCYjiTqR"];*/
+    [Parse setApplicationId:@"TfBH3NJxzbOaxpksu5YymD4lP9bPlytcfZMG8i5a"
+                  clientKey:@"obFmxyzaxx6JWMVMtXpaggDFu2TcARRMqyFQdYpP"];
     
     [application registerForRemoteNotificationTypes:UIRemoteNotificationTypeBadge|
      UIRemoteNotificationTypeAlert|
